@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Capa_Presentacion
 {
-    public partial class Form1 : Form
+    public partial class Frm_Principal : Form
     {
-        public Form1()
+        public Frm_Principal()
         {
             InitializeComponent();
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_AcercaDe frm = Frm_AcercaDe.Instance;
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

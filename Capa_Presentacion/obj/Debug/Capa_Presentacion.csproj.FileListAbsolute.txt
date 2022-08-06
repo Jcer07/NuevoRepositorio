@@ -1,0 +1,12 @@
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.AssemblyReference.cache
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_AcercaDe.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_Principal.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Properties.Resources.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.GenerateResource.cache
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Presentacion.exe.config
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Presentacion.exe
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Presentacion.pdb
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.exe
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.pdb
