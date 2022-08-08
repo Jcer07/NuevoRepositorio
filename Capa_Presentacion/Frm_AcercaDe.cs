@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_Negocio;
 
 namespace Capa_Presentacion
 {
@@ -38,6 +39,11 @@ namespace Capa_Presentacion
         private void BtnAceptar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Frm_AcercaDe_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

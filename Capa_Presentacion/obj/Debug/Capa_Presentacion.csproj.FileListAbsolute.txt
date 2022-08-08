@@ -10,3 +10,9 @@ C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Pre
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Presentacion.pdb
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.exe
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.pdb
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_GestionPersonal.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Entidades.dll
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Negocio.dll
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Entidades.pdb
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Negocio.pdb
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CopyComplete
