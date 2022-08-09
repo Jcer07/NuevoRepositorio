@@ -1,0 +1,6 @@
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\obj\Debug\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\obj\Debug\Capa_Datos.pdb
