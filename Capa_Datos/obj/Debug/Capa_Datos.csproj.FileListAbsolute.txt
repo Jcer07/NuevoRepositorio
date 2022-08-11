@@ -4,3 +4,6 @@ C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\obj\Debug\Capa_Datos.cspr
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\obj\Debug\Capa_Datos.dll
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\bin\Debug\Capa_Entidades.dll
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\bin\Debug\Capa_Entidades.pdb
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete

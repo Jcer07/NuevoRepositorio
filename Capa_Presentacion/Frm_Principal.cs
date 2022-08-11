@@ -20,8 +20,13 @@ namespace Capa_Presentacion
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Frm_AcercaDe frm = Frm_AcercaDe.Instance;
-            frm.MdiParent = this;
-            frm.Show();
+            
+            frm.ShowDialog();
+        }
+
+        private void Frm_Principal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -17,3 +17,5 @@ C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Ent
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Negocio.pdb
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CopyComplete
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_Login.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Datos.dll
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Datos.pdb

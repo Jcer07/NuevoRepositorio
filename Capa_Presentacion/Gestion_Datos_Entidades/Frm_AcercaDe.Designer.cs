@@ -28,48 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.LblRazonSocial = new System.Windows.Forms.Label();
+            this.LblDireccion = new System.Windows.Forms.Label();
+            this.LblTelefono = new System.Windows.Forms.Label();
+            this.LblCorreo = new System.Windows.Forms.Label();
             this.BtnAceptar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // LblRazonSocial
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 57);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(361, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre de Empresa: Grupo FerroCenter S.A.C";
+            this.LblRazonSocial.AutoSize = true;
+            this.LblRazonSocial.Location = new System.Drawing.Point(34, 57);
+            this.LblRazonSocial.Name = "LblRazonSocial";
+            this.LblRazonSocial.Size = new System.Drawing.Size(173, 20);
+            this.LblRazonSocial.TabIndex = 0;
+            this.LblRazonSocial.Text = "Nombre de Empresa: ";
             // 
-            // label2
+            // LblDireccion
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(34, 117);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(301, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Dirección: Av Panamericana Norte S/N";
+            this.LblDireccion.AutoSize = true;
+            this.LblDireccion.Location = new System.Drawing.Point(34, 117);
+            this.LblDireccion.Name = "LblDireccion";
+            this.LblDireccion.Size = new System.Drawing.Size(91, 20);
+            this.LblDireccion.TabIndex = 0;
+            this.LblDireccion.Text = "Dirección: ";
             // 
-            // label3
+            // LblTelefono
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(34, 167);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(306, 20);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Número de Teléfono: (+51) 987 654 321";
+            this.LblTelefono.AutoSize = true;
+            this.LblTelefono.Location = new System.Drawing.Point(34, 167);
+            this.LblTelefono.Name = "LblTelefono";
+            this.LblTelefono.Size = new System.Drawing.Size(170, 20);
+            this.LblTelefono.TabIndex = 0;
+            this.LblTelefono.Text = "Número de Teléfono: ";
             // 
-            // label4
+            // LblCorreo
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 224);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(253, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Correo: FerroCenter@gmail.com";
+            this.LblCorreo.AutoSize = true;
+            this.LblCorreo.Location = new System.Drawing.Point(34, 224);
+            this.LblCorreo.Name = "LblCorreo";
+            this.LblCorreo.Size = new System.Drawing.Size(70, 20);
+            this.LblCorreo.TabIndex = 0;
+            this.LblCorreo.Text = "Correo: ";
             // 
             // BtnAceptar
             // 
@@ -87,10 +87,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(419, 363);
             this.Controls.Add(this.BtnAceptar);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.LblCorreo);
+            this.Controls.Add(this.LblTelefono);
+            this.Controls.Add(this.LblDireccion);
+            this.Controls.Add(this.LblRazonSocial);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
@@ -106,10 +106,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label LblRazonSocial;
+        private System.Windows.Forms.Label LblDireccion;
+        private System.Windows.Forms.Label LblTelefono;
+        private System.Windows.Forms.Label LblCorreo;
         private System.Windows.Forms.Button BtnAceptar;
     }
 }

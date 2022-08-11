@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,17 +47,101 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comercializacion\Frm_GenerarNotaCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_GenerarNotaCredito.Designer.cs">
+      <DependentUpon>Frm_GenerarNotaCredito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_RealizarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_RealizarVenta.Designer.cs">
+      <DependentUpon>Frm_RealizarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_RegistrarDevolucionProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_RegistrarDevolucionProducto.Designer.cs">
+      <DependentUpon>Frm_RegistrarDevolucionProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_RegistrarIngresoMercaderia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_RegistrarIngresoMercaderia.Designer.cs">
+      <DependentUpon>Frm_RegistrarIngresoMercaderia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_RegistrarSalidaMercaderia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_RegistrarSalidaMercaderia.Designer.cs">
+      <DependentUpon>Frm_RegistrarSalidaMercaderia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarCliente.Designer.cs">
+      <DependentUpon>Frm_BuscarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarOrdenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarOrdenCompra.Designer.cs">
+      <DependentUpon>Frm_BuscarOrdenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarProducto.Designer.cs">
+      <DependentUpon>Frm_BuscarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarProveedor.Designer.cs">
+      <DependentUpon>Frm_BuscarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios_Busqueda\Frm_BuscarVenta.Designer.cs">
+      <DependentUpon>Frm_BuscarVenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Login.Designer.cs">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Comercializacion\Frm_RegistrarOrdenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comercializacion\Frm_RegistrarOrdenCompra.Designer.cs">
+      <DependentUpon>Frm_RegistrarOrdenCompra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestion_Datos_Entidades\Frm_AcercaDe.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gestion_Datos_Entidades\Frm_AcercaDe.Designer.cs">
       <DependentUpon>Frm_AcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionCategorias.Designer.cs">
+      <DependentUpon>Frm_GestionCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionCliente.Designer.cs">
+      <DependentUpon>Frm_GestionCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionMarcaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionMarcaProducto.Designer.cs">
+      <DependentUpon>Frm_GestionMarcaProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Gestion_Datos_Entidades\Frm_GestionPersonal.cs">
       <SubType>Form</SubType>
@@ -70,19 +155,109 @@
     <Compile Include="Frm_Principal.Designer.cs">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionProducto.Designer.cs">
+      <DependentUpon>Frm_GestionProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionProveedor.Designer.cs">
+      <DependentUpon>Frm_GestionProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionUnidadesTransporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionUnidadesTransporte.Designer.cs">
+      <DependentUpon>Frm_GestionUnidadesTransporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestion_Datos_Entidades\Frm_GestionUsuario.Designer.cs">
+      <DependentUpon>Frm_GestionUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\Frm_ReporteCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Frm_ReporteCompras.Designer.cs">
+      <DependentUpon>Frm_ReporteCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Frm_ReporteVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Frm_ReporteVentas.Designer.cs">
+      <DependentUpon>Frm_ReporteVentas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Comercializacion\Frm_GenerarNotaCredito.resx">
+      <DependentUpon>Frm_GenerarNotaCredito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercializacion\Frm_RealizarVenta.resx">
+      <DependentUpon>Frm_RealizarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercializacion\Frm_RegistrarDevolucionProducto.resx">
+      <DependentUpon>Frm_RegistrarDevolucionProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercializacion\Frm_RegistrarIngresoMercaderia.resx">
+      <DependentUpon>Frm_RegistrarIngresoMercaderia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercializacion\Frm_RegistrarOrdenCompra.resx">
+      <DependentUpon>Frm_RegistrarOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comercializacion\Frm_RegistrarSalidaMercaderia.resx">
+      <DependentUpon>Frm_RegistrarSalidaMercaderia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Busqueda\Frm_BuscarCliente.resx">
+      <DependentUpon>Frm_BuscarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Busqueda\Frm_BuscarOrdenCompra.resx">
+      <DependentUpon>Frm_BuscarOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Busqueda\Frm_BuscarProducto.resx">
+      <DependentUpon>Frm_BuscarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Busqueda\Frm_BuscarProveedor.resx">
+      <DependentUpon>Frm_BuscarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios_Busqueda\Frm_BuscarVenta.resx">
+      <DependentUpon>Frm_BuscarVenta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Login.resx">
       <DependentUpon>Frm_Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestion_Datos_Entidades\Frm_AcercaDe.resx">
       <DependentUpon>Frm_AcercaDe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_Datos_Entidades\Frm_GestionCategorias.resx">
+      <DependentUpon>Frm_GestionCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_Datos_Entidades\Frm_GestionCliente.resx">
+      <DependentUpon>Frm_GestionCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_Datos_Entidades\Frm_GestionMarcaProducto.resx">
+      <DependentUpon>Frm_GestionMarcaProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestion_Datos_Entidades\Frm_GestionPersonal.resx">
       <DependentUpon>Frm_GestionPersonal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Principal.resx">
       <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_Datos_Entidades\Frm_GestionProducto.resx">
+      <DependentUpon>Frm_GestionProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_Datos_Entidades\Frm_GestionProveedor.resx">
+      <DependentUpon>Frm_GestionProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_Datos_Entidades\Frm_GestionUnidadesTransporte.resx">
+      <DependentUpon>Frm_GestionUnidadesTransporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestion_Datos_Entidades\Frm_GestionUsuario.resx">
+      <DependentUpon>Frm_GestionUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,6 +268,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reportes\Frm_ReporteCompras.resx">
+      <DependentUpon>Frm_ReporteCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Frm_ReporteVentas.resx">
+      <DependentUpon>Frm_ReporteVentas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -116,8 +297,6 @@
       <Name>Capa_Negocio</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Comercializacion\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

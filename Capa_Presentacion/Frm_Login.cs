@@ -25,6 +25,9 @@ namespace Capa_Presentacion
         private void BtnLogin_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Bienvenido al Sistema", "Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
+            Frm_Principal principal = new Frm_Principal();
+            principal.Show();
         }
 
         private void LkLblRecuperacion_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
