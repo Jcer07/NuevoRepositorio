@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatosLogin.cs" />
     <Compile Include="E_AcercaDe.cs" />
+    <Compile Include="E_Almacen.cs" />
+    <Compile Include="E_CategoriaProducto.cs" />
+    <Compile Include="E_Departamento.cs" />
+    <Compile Include="E_Distrito.cs" />
+    <Compile Include="E_MarcaProducto.cs" />
+    <Compile Include="E_Personal.cs" />
+    <Compile Include="E_Producto.cs" />
+    <Compile Include="E_Provincia.cs" />
+    <Compile Include="E_TipoPersonal.cs" />
+    <Compile Include="E_Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

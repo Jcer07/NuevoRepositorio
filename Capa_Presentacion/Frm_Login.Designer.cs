@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.LblUsuario = new System.Windows.Forms.Label();
             this.TxtUsuario = new System.Windows.Forms.TextBox();
             this.BtnLogin = new System.Windows.Forms.Button();
@@ -37,7 +38,9 @@
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.LblMsgRecuperacion = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.ErrNotificator = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ErrNotificator)).BeginInit();
             this.SuspendLayout();
             // 
             // LblUsuario
@@ -55,6 +58,7 @@
             this.TxtUsuario.Name = "TxtUsuario";
             this.TxtUsuario.Size = new System.Drawing.Size(317, 26);
             this.TxtUsuario.TabIndex = 1;
+            this.TxtUsuario.Validating += new System.ComponentModel.CancelEventHandler(this.TxtUsuario_Validating);
             // 
             // BtnLogin
             // 
@@ -92,6 +96,7 @@
             this.TxtClave.Name = "TxtClave";
             this.TxtClave.Size = new System.Drawing.Size(317, 26);
             this.TxtClave.TabIndex = 2;
+            this.TxtClave.Validating += new System.ComponentModel.CancelEventHandler(this.TxtClave_Validating);
             // 
             // BtnCancelar
             // 
@@ -127,14 +132,19 @@
             this.panel1.Size = new System.Drawing.Size(369, 364);
             this.panel1.TabIndex = 6;
             // 
+            // ErrNotificator
+            // 
+            this.ErrNotificator.ContainerControl = this;
+            // 
             // Frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.ClientSize = new System.Drawing.Size(782, 390);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Frm_Login";
@@ -142,6 +152,7 @@
             this.Text = "Inicio de Sesión";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ErrNotificator)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -157,5 +168,6 @@
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.Label LblMsgRecuperacion;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ErrorProvider ErrNotificator;
     }
 }

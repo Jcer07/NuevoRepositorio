@@ -42,6 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="N_AcercaDe.cs" />
+    <Compile Include="N_Almacen.cs" />
+    <Compile Include="N_CategoriaProducto.cs" />
+    <Compile Include="N_IniciarSesion.cs" />
+    <Compile Include="N_MarcaProducto.cs" />
+    <Compile Include="N_Personal.cs" />
+    <Compile Include="N_Producto.cs" />
+    <Compile Include="N_TipoPersonal.cs" />
+    <Compile Include="N_UbigeoPeru.cs" />
+    <Compile Include="N_Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿namespace Capa_Presentacion
 {
-    partial class Frm_Principal
+    partial class Frm_Principal1
     {
         /// <summary>
         /// Required designer variable.

@@ -44,6 +44,17 @@
   <ItemGroup>
     <Compile Include="AcercaDe.cs" />
     <Compile Include="D_AcercaDe.cs" />
+    <Compile Include="D_Almacen.cs" />
+    <Compile Include="D_CategoriaProducto.cs" />
+    <Compile Include="D_Departamento.cs" />
+    <Compile Include="D_Distrito.cs" />
+    <Compile Include="D_IniciarSesion.cs" />
+    <Compile Include="D_MarcaProducto.cs" />
+    <Compile Include="D_Personal.cs" />
+    <Compile Include="D_Producto.cs" />
+    <Compile Include="D_Provincia.cs" />
+    <Compile Include="D_TipoPersonal.cs" />
+    <Compile Include="D_Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
