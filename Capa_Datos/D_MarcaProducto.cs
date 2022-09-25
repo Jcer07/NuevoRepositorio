@@ -16,7 +16,6 @@ namespace Capa_Datos
         public List<E_MarcaProducto> GetListado()
         {
             List<E_MarcaProducto> listado = null;
-            String query = $"select CodigoMarca, NombreMarca, Vigente from Marca where Vigente = 1";
 
             try
             {

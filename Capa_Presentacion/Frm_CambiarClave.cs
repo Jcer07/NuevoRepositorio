@@ -16,22 +16,5 @@ namespace Capa_Presentacion
         {
             InitializeComponent();
         }
-
-        private void Frm_CambiarClave_Load(object sender, EventArgs e)
-        {
-            this.Size = new System.Drawing.Size(510, 220);
-        }
-
-        private void BtnValidarDatos_Click(object sender, EventArgs e)
-        {
-            this.GbVerificarCodigo.Visible = true;
-            this.GbValidarDatos.Visible = false;
-        }
-
-        private void BtnVerificarCodigo_Click(object sender, EventArgs e)
-        {
-            this.GbVerificarCodigo.Visible = false;
-            this.GbCambiarClave.Visible = true;
-        }
     }
 }

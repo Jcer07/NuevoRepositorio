@@ -15,9 +15,6 @@ namespace Capa_Datos
 
         public void RegistrarProducto(E_Producto p)
         {
-            String query = $@"insert into Producto(NombreProducto, Descripcion, Precio, Vigente, CodigoMarca, CodigoCategoria)
-                        values('{p.Nombre}', '{p.Descripcion}', {p.Precio}, 1, {p.CodigoMarca}, {p.Categoria.CodigoCategoria})";
-
             try
             {
                 using (SqlConnection con = new SqlConnection(cadena))

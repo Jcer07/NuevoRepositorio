@@ -15,7 +15,6 @@ namespace Capa_Datos
         public List<E_CategoriaProducto> GetListado()
         {
             List<E_CategoriaProducto> listado = null;
-            String query = $"select CodigoCategoria, Nombre, Vigente from CategoriaProducto where Vigente = 1";
             try
             {
                 using (SqlConnection con = new SqlConnection(cadena))
@@ -25,8 +24,6 @@ namespace Capa_Datos
                     {
                         using (SqlDataReader dr = cmd.ExecuteReader())
                         {
-                            if (dr.HasRows)
-                            {
                                 listado = new List<E_CategoriaProducto>();
                                 while (dr.Read())
                                 {

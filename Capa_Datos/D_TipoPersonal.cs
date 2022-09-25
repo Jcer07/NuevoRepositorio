@@ -15,7 +15,6 @@ namespace Capa_Datos
 
         public List<E_TipoPersonal> ListaTipoPersonalCbo()
         {
-            String query = $"select CodigoTipoPersonal, NombreTipo from TipoPersonal where Vigente = 1";
             List<E_TipoPersonal> listado = null;
 
             try
