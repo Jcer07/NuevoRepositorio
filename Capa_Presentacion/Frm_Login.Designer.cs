@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Login));
             this.LblUsuario = new System.Windows.Forms.Label();
             this.TxtUsuario = new System.Windows.Forms.TextBox();
             this.BtnLogin = new System.Windows.Forms.Button();
@@ -37,16 +38,18 @@
             this.TxtClave = new System.Windows.Forms.TextBox();
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.LblMsgRecuperacion = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.ErrNotificator = new System.Windows.Forms.ErrorProvider(this.components);
-            this.panel1.SuspendLayout();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.ErrNotificator)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // LblUsuario
             // 
             this.LblUsuario.AutoSize = true;
-            this.LblUsuario.Location = new System.Drawing.Point(23, 42);
+            this.LblUsuario.Location = new System.Drawing.Point(21, 35);
             this.LblUsuario.Name = "LblUsuario";
             this.LblUsuario.Size = new System.Drawing.Size(67, 20);
             this.LblUsuario.TabIndex = 0;
@@ -54,26 +57,29 @@
             // 
             // TxtUsuario
             // 
-            this.TxtUsuario.Location = new System.Drawing.Point(27, 68);
+            this.TxtUsuario.Location = new System.Drawing.Point(25, 61);
             this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.Size = new System.Drawing.Size(317, 26);
+            this.TxtUsuario.Size = new System.Drawing.Size(372, 26);
             this.TxtUsuario.TabIndex = 1;
             this.TxtUsuario.Validating += new System.ComponentModel.CancelEventHandler(this.TxtUsuario_Validating);
             // 
             // BtnLogin
             // 
-            this.BtnLogin.Location = new System.Drawing.Point(60, 264);
+            this.BtnLogin.Image = global::Capa_Presentacion.Properties.Resources.IconLogin;
+            this.BtnLogin.Location = new System.Drawing.Point(55, 257);
             this.BtnLogin.Name = "BtnLogin";
-            this.BtnLogin.Size = new System.Drawing.Size(129, 35);
+            this.BtnLogin.Size = new System.Drawing.Size(153, 50);
             this.BtnLogin.TabIndex = 4;
             this.BtnLogin.Text = "Iniciar Sesión";
+            this.BtnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnLogin.UseVisualStyleBackColor = true;
             this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             // 
             // LkLblRecuperacion
             // 
             this.LkLblRecuperacion.AutoSize = true;
-            this.LkLblRecuperacion.Location = new System.Drawing.Point(223, 204);
+            this.LkLblRecuperacion.Location = new System.Drawing.Point(236, 198);
             this.LkLblRecuperacion.Name = "LkLblRecuperacion";
             this.LkLblRecuperacion.Size = new System.Drawing.Size(82, 20);
             this.LkLblRecuperacion.TabIndex = 3;
@@ -84,7 +90,7 @@
             // LblClave
             // 
             this.LblClave.AutoSize = true;
-            this.LblClave.Location = new System.Drawing.Point(23, 131);
+            this.LblClave.Location = new System.Drawing.Point(21, 124);
             this.LblClave.Name = "LblClave";
             this.LblClave.Size = new System.Drawing.Size(95, 20);
             this.LblClave.TabIndex = 0;
@@ -92,67 +98,85 @@
             // 
             // TxtClave
             // 
-            this.TxtClave.Location = new System.Drawing.Point(27, 156);
+            this.TxtClave.Location = new System.Drawing.Point(25, 149);
             this.TxtClave.Name = "TxtClave";
-            this.TxtClave.Size = new System.Drawing.Size(317, 26);
+            this.TxtClave.Size = new System.Drawing.Size(372, 26);
             this.TxtClave.TabIndex = 2;
+            this.TxtClave.UseSystemPasswordChar = true;
             this.TxtClave.Validating += new System.ComponentModel.CancelEventHandler(this.TxtClave_Validating);
             // 
             // BtnCancelar
             // 
-            this.BtnCancelar.Location = new System.Drawing.Point(216, 264);
+            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Location = new System.Drawing.Point(240, 257);
             this.BtnCancelar.Name = "BtnCancelar";
-            this.BtnCancelar.Size = new System.Drawing.Size(100, 35);
+            this.BtnCancelar.Size = new System.Drawing.Size(120, 50);
             this.BtnCancelar.TabIndex = 5;
             this.BtnCancelar.Text = "Cancelar";
+            this.BtnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnCancelar.UseVisualStyleBackColor = true;
             this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // LblMsgRecuperacion
             // 
             this.LblMsgRecuperacion.AutoSize = true;
-            this.LblMsgRecuperacion.Location = new System.Drawing.Point(23, 204);
+            this.LblMsgRecuperacion.Location = new System.Drawing.Point(42, 198);
             this.LblMsgRecuperacion.Name = "LblMsgRecuperacion";
             this.LblMsgRecuperacion.Size = new System.Drawing.Size(205, 20);
             this.LblMsgRecuperacion.TabIndex = 0;
             this.LblMsgRecuperacion.Text = "¿Olvidaste tu contraseña?";
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.LblUsuario);
-            this.panel1.Controls.Add(this.LkLblRecuperacion);
-            this.panel1.Controls.Add(this.LblClave);
-            this.panel1.Controls.Add(this.BtnCancelar);
-            this.panel1.Controls.Add(this.LblMsgRecuperacion);
-            this.panel1.Controls.Add(this.BtnLogin);
-            this.panel1.Controls.Add(this.TxtUsuario);
-            this.panel1.Controls.Add(this.TxtClave);
-            this.panel1.Location = new System.Drawing.Point(401, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(369, 364);
-            this.panel1.TabIndex = 6;
-            // 
             // ErrNotificator
             // 
             this.ErrNotificator.ContainerControl = this;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(26, 38);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(320, 320);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.LblUsuario);
+            this.groupBox1.Controls.Add(this.LkLblRecuperacion);
+            this.groupBox1.Controls.Add(this.TxtClave);
+            this.groupBox1.Controls.Add(this.LblClave);
+            this.groupBox1.Controls.Add(this.TxtUsuario);
+            this.groupBox1.Controls.Add(this.BtnCancelar);
+            this.groupBox1.Controls.Add(this.BtnLogin);
+            this.groupBox1.Controls.Add(this.LblMsgRecuperacion);
+            this.groupBox1.Location = new System.Drawing.Point(361, 33);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(422, 325);
+            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabStop = false;
             // 
             // Frm_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.ClientSize = new System.Drawing.Size(782, 390);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(795, 411);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Frm_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio de Sesión";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ErrNotificator)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -167,7 +191,8 @@
         private System.Windows.Forms.TextBox TxtClave;
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.Label LblMsgRecuperacion;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ErrorProvider ErrNotificator;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

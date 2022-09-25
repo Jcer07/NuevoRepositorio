@@ -58,7 +58,7 @@ namespace Capa_Presentacion
             try
             {
                 tp = new N_TipoPersonal();
-                listado = tp.ListadoTpCbo();
+                listado = tp.ListadoTipoPersonalCbo();
                 this.CboTipoPersonal.DataSource = null;
                 if(listado.Count > 0)
                 {
@@ -69,7 +69,7 @@ namespace Capa_Presentacion
             }
             catch (Exception)
             {
-                MessageBox.Show("No se pudo cargar los tipos de Personal", "Sistema");
+                MessageBox.Show("No se pudo cargar el listado de tipos de Personal", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

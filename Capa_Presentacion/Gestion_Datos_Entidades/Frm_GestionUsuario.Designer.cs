@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_GestionUsuario));
             this.GbPersonal = new System.Windows.Forms.GroupBox();
             this.BtnBuscarPersonal = new System.Windows.Forms.Button();
             this.TxtDni = new System.Windows.Forms.TextBox();
@@ -75,7 +76,6 @@
             this.GbPersonal.Controls.Add(this.TxtNombrePersonal);
             this.GbPersonal.Controls.Add(this.LblDni);
             this.GbPersonal.Controls.Add(this.LblNombres);
-            this.GbPersonal.Enabled = false;
             this.GbPersonal.Location = new System.Drawing.Point(13, 13);
             this.GbPersonal.Name = "GbPersonal";
             this.GbPersonal.Size = new System.Drawing.Size(425, 192);
@@ -85,11 +85,14 @@
             // 
             // BtnBuscarPersonal
             // 
-            this.BtnBuscarPersonal.Location = new System.Drawing.Point(264, 61);
+            this.BtnBuscarPersonal.Image = global::Capa_Presentacion.Properties.Resources.IconSearch2;
+            this.BtnBuscarPersonal.Location = new System.Drawing.Point(264, 66);
             this.BtnBuscarPersonal.Name = "BtnBuscarPersonal";
-            this.BtnBuscarPersonal.Size = new System.Drawing.Size(121, 36);
+            this.BtnBuscarPersonal.Size = new System.Drawing.Size(120, 30);
             this.BtnBuscarPersonal.TabIndex = 1;
             this.BtnBuscarPersonal.Text = "Buscar";
+            this.BtnBuscarPersonal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnBuscarPersonal.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnBuscarPersonal.UseVisualStyleBackColor = true;
             this.BtnBuscarPersonal.Click += new System.EventHandler(this.BtnBuscarPersonal_Click);
             // 
@@ -145,10 +148,9 @@
             this.GbUsuario.Controls.Add(this.TxtSiglasTipoUsuario);
             this.GbUsuario.Controls.Add(this.TxtTipoUsuario);
             this.GbUsuario.Controls.Add(this.TxtNombreUsuario);
-            this.GbUsuario.Enabled = false;
             this.GbUsuario.Location = new System.Drawing.Point(13, 211);
             this.GbUsuario.Name = "GbUsuario";
-            this.GbUsuario.Size = new System.Drawing.Size(425, 476);
+            this.GbUsuario.Size = new System.Drawing.Size(425, 433);
             this.GbUsuario.TabIndex = 1;
             this.GbUsuario.TabStop = false;
             this.GbUsuario.Text = "Datos de Usuario";
@@ -156,22 +158,28 @@
             // BtnCancelar
             // 
             this.BtnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnCancelar.Location = new System.Drawing.Point(264, 415);
+            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Location = new System.Drawing.Point(235, 377);
             this.BtnCancelar.Name = "BtnCancelar";
-            this.BtnCancelar.Size = new System.Drawing.Size(121, 36);
+            this.BtnCancelar.Size = new System.Drawing.Size(150, 40);
             this.BtnCancelar.TabIndex = 6;
             this.BtnCancelar.Text = "Cancelar";
+            this.BtnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnCancelar.UseVisualStyleBackColor = true;
             this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
             // BtnAceptar
             // 
             this.BtnAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnAceptar.Location = new System.Drawing.Point(126, 415);
+            this.BtnAceptar.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnAceptar.Location = new System.Drawing.Point(79, 377);
             this.BtnAceptar.Name = "BtnAceptar";
-            this.BtnAceptar.Size = new System.Drawing.Size(121, 36);
+            this.BtnAceptar.Size = new System.Drawing.Size(150, 40);
             this.BtnAceptar.TabIndex = 5;
             this.BtnAceptar.Text = "Aceptar";
+            this.BtnAceptar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnAceptar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnAceptar.UseVisualStyleBackColor = true;
             this.BtnAceptar.Click += new System.EventHandler(this.BtnAceptar_Click);
             // 
@@ -276,7 +284,7 @@
             this.GbListado.Controls.Add(this.LblUsuario);
             this.GbListado.Location = new System.Drawing.Point(458, 12);
             this.GbListado.Name = "GbListado";
-            this.GbListado.Size = new System.Drawing.Size(751, 675);
+            this.GbListado.Size = new System.Drawing.Size(751, 632);
             this.GbListado.TabIndex = 2;
             this.GbListado.TabStop = false;
             this.GbListado.Text = "Listado";
@@ -284,33 +292,42 @@
             // BtnDarBaja
             // 
             this.BtnDarBaja.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnDarBaja.Location = new System.Drawing.Point(611, 614);
+            this.BtnDarBaja.Image = global::Capa_Presentacion.Properties.Resources.IconDelete;
+            this.BtnDarBaja.Location = new System.Drawing.Point(582, 571);
             this.BtnDarBaja.Name = "BtnDarBaja";
-            this.BtnDarBaja.Size = new System.Drawing.Size(121, 36);
+            this.BtnDarBaja.Size = new System.Drawing.Size(150, 40);
             this.BtnDarBaja.TabIndex = 4;
             this.BtnDarBaja.Text = "Dar de Baja";
+            this.BtnDarBaja.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnDarBaja.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnDarBaja.UseVisualStyleBackColor = true;
             this.BtnDarBaja.Click += new System.EventHandler(this.BtnDarBaja_Click);
             // 
             // BtnModificar
             // 
             this.BtnModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnModificar.Location = new System.Drawing.Point(170, 614);
+            this.BtnModificar.Image = global::Capa_Presentacion.Properties.Resources.IconUpdate;
+            this.BtnModificar.Location = new System.Drawing.Point(183, 571);
             this.BtnModificar.Name = "BtnModificar";
-            this.BtnModificar.Size = new System.Drawing.Size(121, 36);
+            this.BtnModificar.Size = new System.Drawing.Size(150, 40);
             this.BtnModificar.TabIndex = 3;
             this.BtnModificar.Text = "Modificar";
+            this.BtnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnModificar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnModificar.UseVisualStyleBackColor = true;
             this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
             // BtnNuevo
             // 
             this.BtnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnNuevo.Location = new System.Drawing.Point(27, 614);
+            this.BtnNuevo.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
+            this.BtnNuevo.Location = new System.Drawing.Point(27, 571);
             this.BtnNuevo.Name = "BtnNuevo";
-            this.BtnNuevo.Size = new System.Drawing.Size(121, 36);
+            this.BtnNuevo.Size = new System.Drawing.Size(150, 40);
             this.BtnNuevo.TabIndex = 2;
             this.BtnNuevo.Text = "Nuevo";
+            this.BtnNuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnNuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnNuevo.UseVisualStyleBackColor = true;
             this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
             // 
@@ -334,7 +351,7 @@
             this.DgvListado.ReadOnly = true;
             this.DgvListado.RowHeadersWidth = 51;
             this.DgvListado.RowTemplate.Height = 24;
-            this.DgvListado.Size = new System.Drawing.Size(705, 478);
+            this.DgvListado.Size = new System.Drawing.Size(705, 435);
             this.DgvListado.TabIndex = 5;
             // 
             // ClNombres
@@ -372,11 +389,14 @@
             // BtnListar
             // 
             this.BtnListar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnListar.Image = global::Capa_Presentacion.Properties.Resources.IconList;
             this.BtnListar.Location = new System.Drawing.Point(611, 60);
             this.BtnListar.Name = "BtnListar";
-            this.BtnListar.Size = new System.Drawing.Size(121, 36);
+            this.BtnListar.Size = new System.Drawing.Size(121, 40);
             this.BtnListar.TabIndex = 1;
             this.BtnListar.Text = "Listar";
+            this.BtnListar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnListar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnListar.UseVisualStyleBackColor = true;
             this.BtnListar.Click += new System.EventHandler(this.BtnListar_Click);
             // 
@@ -407,13 +427,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.ClientSize = new System.Drawing.Size(1221, 699);
+            this.ClientSize = new System.Drawing.Size(1221, 656);
             this.Controls.Add(this.GbListado);
             this.Controls.Add(this.GbUsuario);
             this.Controls.Add(this.GbPersonal);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_GestionUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestion de Usuario";
             this.Load += new System.EventHandler(this.Frm_GestionUsuario_Load);
             this.GbPersonal.ResumeLayout(false);

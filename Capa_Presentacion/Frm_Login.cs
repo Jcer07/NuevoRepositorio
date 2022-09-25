@@ -36,7 +36,7 @@ namespace Capa_Presentacion
                     {
                         MessageBox.Show("Bievenido: " + DatosLogin.NombrePersonal, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                        FrmPrincipal2 principal = new FrmPrincipal2();
+                        Frm_Principal principal = new Frm_Principal();
                         principal.Show();
                         principal.FormClosed += CerrarSesion;
                         this.Hide();

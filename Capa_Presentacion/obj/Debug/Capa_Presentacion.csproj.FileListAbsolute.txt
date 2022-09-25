@@ -19,16 +19,13 @@ C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Pre
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Formularios_Busqueda.Frm_BuscarOrdenCompra.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Formularios_Busqueda.Frm_BuscarProducto.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Formularios_Busqueda.Frm_BuscarProveedor.resources
-C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Formularios_Busqueda.Frm_BuscarVenta.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.FrmPrincipal2.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_CambiarClave.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_Login.resources
-C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_AcercaDe.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Gestion_Datos_Entidades.Frm_GestionCategorias.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Gestion_Datos_Entidades.Frm_GestionCliente.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Gestion_Datos_Entidades.Frm_GestionMarcaProducto.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_GestionPersonal.resources
-C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_Principal1.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Gestion_Datos_Entidades.Frm_GestionProducto.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Gestion_Datos_Entidades.Frm_GestionProveedor.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Gestion_Datos_Entidades.Frm_GestionUnidadesTransporte.resources
@@ -41,3 +38,9 @@ C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Pre
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.csproj.CopyComplete
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.exe
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.pdb
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Comercializacion.Frm_RegistraCotizacion.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Frm_Principal.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Gestion_Datos_Entidades.Frm_GestionTipoPersonal.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Reportes.Frm_ReporteProductos.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Formularios_Busqueda.Frm_BuscarUnidadTransporte.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Comercializacion.Frm_RegistrarPago.resources

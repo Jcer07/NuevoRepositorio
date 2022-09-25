@@ -117,4 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="ClFecha.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ClNumeroCompra.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ClProveedor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ClMonto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ClFecha.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ClNumeroCompra.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ClProveedor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ClMonto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH5gkOAR0lVKyVEQAAAPdJREFU
+        WEftlk0OAUEUhCdWllbC0jWcwlacwXW4AcJpnAKJ2DgA9UlJOnpWxvRbmEq+5KVep0v/zJiq01uT1b0o
+        mdzoiaEYi4E9oB79AOYmw6mJMD3gKG5ibQ+or+LUgLNgbjKcmghTsHLCH+JgD6jxmsLcZDg1EaZgq1kt
+        gUt7QL0XmwZsBXO/jjYTZkky1Q1qk0xuhB9B+CUMfwzDX0TFyORGX8zEQkztATXevCHMTYZTE2EKtuki
+        uDA7e0D9eaG+gbnJcGoiTDdDf0D4ERQjkxvd90D4q5itZrVhf0bFyFQ3qE0yuRF+BOGXMPwx/OPvgT9V
+        VT0B1vQ0LwCiaeIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAMAQAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD5yZBV+cqQ//nKkP/5ypD/+cqQ//nKkP/5ypD/+cqQ//nKkP/5ypD/+cqQ//nJ
+        kFUAAAAAAAAAAAAAAAAAAAAA+cmQVfnKkP/5ypD/+cqQ//nKkP/5ypD/+cqQ//nKkP/5ypD/+cqQ//nK
+        kP/5yZBVAAAAAAAAAAAAAAAAAAAAAPnJkFX5ypD/+cqQ//nKkP/wuHf/45lL/+OYSv/wt3b/+cqQ//nK
+        kP/5ypD/+cmQVQAAAAAAAAAAAAAAAAAAAAD5yZBV+cqQ//nKkP/tsW3/03cb/9J2Gf/Sdhn/t3dK/7ae
+        ov/5ypD/+cqQ//nJkFUAAAAAAAAAAAAAAAAAAAAA+cmQVfnKkP/5ypD/2YQt/9J2Gf/Sdhn/rXRW/xM4
+        1/8tSM//+cqQ//nKkP/5yZBVAAAAAAAAAAAAAAAAAAAAAPnJkFX5ypD/+cqQ/9R7IP/Sdhn/0nYZ/0yM
+        1v9Ihtn/UYnU//nKkP/5ypD/+cmQVQAAAAAAAAAAAAAAAAAAAAD5yZBV+cqQ//nKkP/djjz/0nYZ/9J2
+        Gf8lqPn/Jaj5/2az2f/5ypD/+cqQ//nJkFUAAAAAAAAAAAAAAAAAAAAA+cmQVfnKkP/5ypD/9b+B/9iE
+        Lf/Sdhn/Jaj5/0mu5//gxpz/+cqQ//nKkP/5yZBVAAAAAAAAAAAAAAAAAAAAAPnJkFX5ypD/+cqQ//nK
+        kP/4x43/8Lh3/8zDp//zyZP/+cqQ//nKkP/5ypD/+cmQVQAAAAAAAAAAAAAAAAAAAAD5yZBV+cqQ//nK
+        kP/5ypD/+cqQ//nKkP/5ypD/+cqQ//nKkP/5ypD/+cqQ//nJkFUAAAAAAAAAAAAAAAAAAAAA+cmQVfnK
+        kP/5ypD/+cqQ//nKkP/5ypD/+cqQ//rUof/85sb//ObG//vYqv/4y49JAAAAAAAAAAAAAAAAAAAAAPnJ
+        kFX5ypD/+cqQ//nKkP/5ypD/+cqQ//nKkP/72av//vXh//znx//6y5SPAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD5yZBV+cqQ//nKkP/5ypD/+cqQ//nKkP/5ypD/+9mr//znx//6zJKMAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA+cmQVfnKkP/5ypD/+cqQ//nKkP/5ypD/+cqQ//rPmf/5y5F7AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAOAHAADgBwAA4AcAAOAHAADgBwAA4AcAAOAHAADgBwAA4AcAAOAHAADgBwAA4AcAAOAP
+        AADgPwAA//8AAA==
+</value>
+  </data>
 </root>

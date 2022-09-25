@@ -14,6 +14,8 @@ namespace Capa_Entidades
         private String _nombre;
         private String _descripcion;
         private double _precio;
+        private int _stockMinimo;
+        private int _stockActual;
         private bool _vigente;
 
         #region Propiedades de lectura y escritura
@@ -23,6 +25,8 @@ namespace Capa_Entidades
         public string Nombre { get => _nombre; set => _nombre = value; }
         public string Descripcion { get => _descripcion; set => _descripcion = value; }
         public double Precio { get => _precio; set => _precio = value; }
+        public int StockMinimo { get => _stockMinimo; set => _stockMinimo = value; }
+        public int StockActual { get => _stockActual; set => _stockActual = value; }
         public bool Vigente { get => _vigente; set => _vigente = value; }
         #endregion
 
@@ -39,6 +43,7 @@ namespace Capa_Entidades
                 return nombreCat;
             }
         }
+
         #endregion
     }
 }

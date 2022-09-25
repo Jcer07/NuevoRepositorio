@@ -31,6 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal2));
             this.PnlMenuIzquierdo = new System.Windows.Forms.Panel();
+            this.PnlSubMenuCompras = new System.Windows.Forms.Panel();
+            this.BtnRegistraCotizacion = new System.Windows.Forms.Button();
+            this.BtnOrdenCompra = new System.Windows.Forms.Button();
+            this.BtnCompras = new System.Windows.Forms.Button();
             this.PnlSubMenuGestionAlmacen = new System.Windows.Forms.Panel();
             this.BtnRegistrarEntrada = new System.Windows.Forms.Button();
             this.BtnRegistrarSalida = new System.Windows.Forms.Button();
@@ -57,19 +61,25 @@
             this.HoraFecha = new System.Windows.Forms.Timer(this.components);
             this.PnlHoraFecha = new System.Windows.Forms.Panel();
             this.PnlContenedor = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PnlMenuIzquierdo.SuspendLayout();
+            this.PnlSubMenuCompras.SuspendLayout();
             this.PnlSubMenuGestionAlmacen.SuspendLayout();
             this.PnlSubMenuVentas.SuspendLayout();
             this.PnlSubMenuGestionDatos.SuspendLayout();
             this.PnlIconoUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnIconUsuario)).BeginInit();
             this.PnlHoraFecha.SuspendLayout();
+            this.PnlContenedor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // PnlMenuIzquierdo
             // 
             this.PnlMenuIzquierdo.AutoScroll = true;
             this.PnlMenuIzquierdo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.PnlMenuIzquierdo.Controls.Add(this.PnlSubMenuCompras);
+            this.PnlMenuIzquierdo.Controls.Add(this.BtnCompras);
             this.PnlMenuIzquierdo.Controls.Add(this.PnlSubMenuGestionAlmacen);
             this.PnlMenuIzquierdo.Controls.Add(this.BtnAlmacen);
             this.PnlMenuIzquierdo.Controls.Add(this.PnlSubMenuVentas);
@@ -84,6 +94,73 @@
             this.PnlMenuIzquierdo.Name = "PnlMenuIzquierdo";
             this.PnlMenuIzquierdo.Size = new System.Drawing.Size(230, 746);
             this.PnlMenuIzquierdo.TabIndex = 1;
+            // 
+            // PnlSubMenuCompras
+            // 
+            this.PnlSubMenuCompras.Controls.Add(this.BtnRegistraCotizacion);
+            this.PnlSubMenuCompras.Controls.Add(this.BtnOrdenCompra);
+            this.PnlSubMenuCompras.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PnlSubMenuCompras.Location = new System.Drawing.Point(0, 599);
+            this.PnlSubMenuCompras.Name = "PnlSubMenuCompras";
+            this.PnlSubMenuCompras.Size = new System.Drawing.Size(230, 70);
+            this.PnlSubMenuCompras.TabIndex = 9;
+            // 
+            // BtnRegistraCotizacion
+            // 
+            this.BtnRegistraCotizacion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnRegistraCotizacion.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnRegistraCotizacion.FlatAppearance.BorderSize = 0;
+            this.BtnRegistraCotizacion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BtnRegistraCotizacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRegistraCotizacion.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRegistraCotizacion.ForeColor = System.Drawing.Color.White;
+            this.BtnRegistraCotizacion.Location = new System.Drawing.Point(0, 35);
+            this.BtnRegistraCotizacion.Name = "BtnRegistraCotizacion";
+            this.BtnRegistraCotizacion.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.BtnRegistraCotizacion.Size = new System.Drawing.Size(230, 35);
+            this.BtnRegistraCotizacion.TabIndex = 1;
+            this.BtnRegistraCotizacion.Text = "Registrar Cotización";
+            this.BtnRegistraCotizacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnRegistraCotizacion.UseVisualStyleBackColor = true;
+            this.BtnRegistraCotizacion.Click += new System.EventHandler(this.BtnRegistraCotizacion_Click);
+            // 
+            // BtnOrdenCompra
+            // 
+            this.BtnOrdenCompra.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnOrdenCompra.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnOrdenCompra.FlatAppearance.BorderSize = 0;
+            this.BtnOrdenCompra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BtnOrdenCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnOrdenCompra.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnOrdenCompra.ForeColor = System.Drawing.Color.White;
+            this.BtnOrdenCompra.Location = new System.Drawing.Point(0, 0);
+            this.BtnOrdenCompra.Name = "BtnOrdenCompra";
+            this.BtnOrdenCompra.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.BtnOrdenCompra.Size = new System.Drawing.Size(230, 35);
+            this.BtnOrdenCompra.TabIndex = 0;
+            this.BtnOrdenCompra.Text = "Registrar Orden de Compra";
+            this.BtnOrdenCompra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnOrdenCompra.UseVisualStyleBackColor = true;
+            this.BtnOrdenCompra.Click += new System.EventHandler(this.BtnOrdenCompra_Click);
+            // 
+            // BtnCompras
+            // 
+            this.BtnCompras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnCompras.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnCompras.FlatAppearance.BorderSize = 0;
+            this.BtnCompras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BtnCompras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCompras.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCompras.ForeColor = System.Drawing.Color.White;
+            this.BtnCompras.Location = new System.Drawing.Point(0, 559);
+            this.BtnCompras.Name = "BtnCompras";
+            this.BtnCompras.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.BtnCompras.Size = new System.Drawing.Size(230, 40);
+            this.BtnCompras.TabIndex = 8;
+            this.BtnCompras.Text = "Compras";
+            this.BtnCompras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnCompras.UseVisualStyleBackColor = true;
+            this.BtnCompras.Click += new System.EventHandler(this.BtnCompras_Click);
             // 
             // PnlSubMenuGestionAlmacen
             // 
@@ -481,12 +558,24 @@
             // 
             // PnlContenedor
             // 
-            this.PnlContenedor.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.PnlContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
+            this.PnlContenedor.Controls.Add(this.pictureBox1);
             this.PnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlContenedor.Location = new System.Drawing.Point(230, 0);
             this.PnlContenedor.Name = "PnlContenedor";
             this.PnlContenedor.Size = new System.Drawing.Size(1051, 711);
             this.PnlContenedor.TabIndex = 5;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(256, 129);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(517, 410);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // FrmPrincipal2
             // 
@@ -504,11 +593,12 @@
             this.MinimumSize = new System.Drawing.Size(1000, 600);
             this.Name = "FrmPrincipal2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Gestión de Préstamos";
+            this.Text = "FerroCenter SAC";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmPrincipal2_FormClosed);
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.PnlMenuIzquierdo.ResumeLayout(false);
+            this.PnlSubMenuCompras.ResumeLayout(false);
             this.PnlSubMenuGestionAlmacen.ResumeLayout(false);
             this.PnlSubMenuVentas.ResumeLayout(false);
             this.PnlSubMenuGestionDatos.ResumeLayout(false);
@@ -517,6 +607,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.BtnIconUsuario)).EndInit();
             this.PnlHoraFecha.ResumeLayout(false);
             this.PnlHoraFecha.PerformLayout();
+            this.PnlContenedor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -550,5 +642,10 @@
         private System.Windows.Forms.Panel PnlSubMenuGestionAlmacen;
         private System.Windows.Forms.Panel PnlSubMenuVentas;
         private System.Windows.Forms.Button BtnGenerarNotaCredito;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnCompras;
+        private System.Windows.Forms.Panel PnlSubMenuCompras;
+        private System.Windows.Forms.Button BtnRegistraCotizacion;
+        private System.Windows.Forms.Button BtnOrdenCompra;
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Capa_Presentacion.Formularios_Busqueda;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace Capa_Presentacion.Comercializacion
         public Frm_RegistrarSalidaMercaderia()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Frm_BuscarUnidadTransporte frm = new Frm_BuscarUnidadTransporte();
+            frm.ShowDialog();
         }
     }
 }

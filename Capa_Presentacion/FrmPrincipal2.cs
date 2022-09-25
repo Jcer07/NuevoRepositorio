@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Windows.Forms;
 using Capa_Entidades;
+using Capa_Presentacion.Comercializacion;
 using Capa_Presentacion.Gestion_Datos_Entidades;
 
 namespace Capa_Presentacion
@@ -48,6 +49,7 @@ namespace Capa_Presentacion
             this.PnlSubMenuGestionDatos.Visible = false;
             this.PnlSubMenuVentas.Visible = false;
             this.PnlSubMenuGestionAlmacen.Visible = false;
+            this.PnlSubMenuCompras.Visible = false;
         }
 
         private void OcultarSubMenu()
@@ -63,6 +65,10 @@ namespace Capa_Presentacion
             if (this.PnlSubMenuGestionAlmacen.Visible)
             {
                 this.PnlSubMenuGestionAlmacen.Visible = false;
+            }
+            if (this.PnlSubMenuCompras.Visible)
+            {
+                this.PnlSubMenuCompras.Visible = false;
             }
         }
 
@@ -116,13 +122,13 @@ namespace Capa_Presentacion
 
         private void BtnGestionProveedores_Click(object sender, EventArgs e)
         {
-            //AbrirFormularios<FrmClientePersona>();
+            AbrirFormularios<Frm_GestionProveedor>();
             OcultarSubMenu();
         }
 
         private void BtnGestionClientes_Click(object sender, EventArgs e)
         {
-            //AbrirFormularios<FrmClienteEmpresa>();
+            AbrirFormularios<Frm_GestionCliente>();
             OcultarSubMenu();
         }
 
@@ -164,7 +170,7 @@ namespace Capa_Presentacion
 
         private void BtnRegistrarVenta_Click(object sender, EventArgs e)
         {
-            //AbrirFormularios<FrmPrestamo>();
+            AbrirFormularios<Frm_RealizarVenta>();
             OcultarSubMenu();
         }
 
@@ -223,26 +229,25 @@ namespace Capa_Presentacion
 
         private void BtnRegistrarEntrada_Click(object sender, EventArgs e)
         {
+            AbrirFormularios<Frm_RegistrarIngresoMercaderia>();
             OcultarSubMenu();
-            /*RnCaja rn = new RnCaja();
-            Caja c;
-            try
-            {
-                c = rn.CajaAbierta();
-                if (c == null)
-                {
-                    MessageBox.Show("No hay ninguna caja abierta", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    FrmCerrarCaja frm = new FrmCerrarCaja();
-                    frm.ShowDialog();
-                }
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Error al intentar abrir una caja", "Error!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }*/
+        }
+
+        private void BtnCompras_Click(object sender, EventArgs e)
+        {
+            MostrarSubMenu(this.PnlSubMenuCompras);
+        }
+
+        private void BtnOrdenCompra_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<Frm_RegistrarOrdenCompra>();
+            OcultarSubMenu();
+        }
+
+        private void BtnRegistraCotizacion_Click(object sender, EventArgs e)
+        {
+            AbrirFormularios<Frm_RegistraCotizacion>();
+            OcultarSubMenu();
         }
     }
 }

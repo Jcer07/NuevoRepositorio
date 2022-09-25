@@ -100,7 +100,7 @@ namespace Capa_Presentacion.Gestion_Datos_Entidades
             try
             {
                 tipos = new N_TipoPersonal();
-                listado = tipos.ListadoTpCbo();
+                listado = tipos.ListadoTipoPersonalCbo();
             }
             catch (Exception)
             {
@@ -238,19 +238,19 @@ namespace Capa_Presentacion.Gestion_Datos_Entidades
         {
             if (ValidateChildren())
             {
-                E_Usuario user = this.CrearEntidad();
+                E_Usuario objUsuario = this.CrearEntidad();
                 N_Usuario n_Usuario = new N_Usuario();
                 try
                 {
                     if (actual == null)
                     {
-                        n_Usuario.Registrar(user);
+                        n_Usuario.Registrar(objUsuario);
                         MessageBox.Show("Usuario Registrado con Éxito", "Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         LimpiarCasillas();
                     }
                     else
                     {
-                        n_Usuario.Actualizar(user);
+                        n_Usuario.Actualizar(objUsuario);
                         MessageBox.Show("Usuario Modificado con éxito", "Sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         LimpiarCasillas();
                         this.ListarUsuarios();
@@ -360,7 +360,7 @@ namespace Capa_Presentacion.Gestion_Datos_Entidades
             }
             else
             {
-                MessageBox.Show("Debe seleccionar una fila", "Sistema", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Debe seleccionar una fila", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 this.DgvListado.Focus();
             }
         }
@@ -376,7 +376,7 @@ namespace Capa_Presentacion.Gestion_Datos_Entidades
             }
             else
             {
-                MessageBox.Show("Debe seleccionar una fila", "Sistema", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Debe seleccionar una fila", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 this.DgvListado.Focus();
             }
         }
