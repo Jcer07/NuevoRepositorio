@@ -73,16 +73,6 @@ namespace Capa_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IconAccept1 {
-            get {
-                object obj = ResourceManager.GetObject("IconAccept1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap IconAddProduct {
             get {
                 object obj = ResourceManager.GetObject("IconAddProduct", resourceCulture);
@@ -106,16 +96,6 @@ namespace Capa_Presentacion.Properties {
         internal static System.Drawing.Bitmap IconCancel {
             get {
                 object obj = ResourceManager.GetObject("IconCancel", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IconCancel1 {
-            get {
-                object obj = ResourceManager.GetObject("IconCancel1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,29 +143,9 @@ namespace Capa_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IconList1 {
-            get {
-                object obj = ResourceManager.GetObject("IconList1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap IconLogin {
             get {
                 object obj = ResourceManager.GetObject("IconLogin", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IconLogin1 {
-            get {
-                object obj = ResourceManager.GetObject("IconLogin1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,16 +166,6 @@ namespace Capa_Presentacion.Properties {
         internal static System.Drawing.Bitmap IconNew {
             get {
                 object obj = ResourceManager.GetObject("IconNew", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IconNew1 {
-            get {
-                object obj = ResourceManager.GetObject("IconNew1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,39 +223,9 @@ namespace Capa_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IconReport1 {
-            get {
-                object obj = ResourceManager.GetObject("IconReport1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap IconSearch {
             get {
                 object obj = ResourceManager.GetObject("IconSearch", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IconSearch1 {
-            get {
-                object obj = ResourceManager.GetObject("IconSearch1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IconSearch2 {
-            get {
-                object obj = ResourceManager.GetObject("IconSearch2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -346,16 +266,6 @@ namespace Capa_Presentacion.Properties {
         internal static System.Drawing.Bitmap IconUpdate {
             get {
                 object obj = ResourceManager.GetObject("IconUpdate", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap IconUpdate1 {
-            get {
-                object obj = ResourceManager.GetObject("IconUpdate1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

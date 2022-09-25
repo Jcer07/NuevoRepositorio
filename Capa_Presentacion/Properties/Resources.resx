@@ -139,9 +139,6 @@
   <data name="IconLogistcs" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconLogistcs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IconList1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconList.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="IconTransport" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconTransport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -150,9 +147,6 @@
   </data>
   <data name="IconNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconCancel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconCancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IconSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconSearch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,26 +160,11 @@
   <data name="IconLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IconAccept1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconAccept.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="IconCleanUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconCleanUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IconPdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconPdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconNew1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconNew.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconUpdate1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconSearch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconSearch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconReport1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IconAccept" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconAccept.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,14 +178,8 @@
   <data name="IconRegisterSale" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconRegisterSale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IconSearch2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconSearch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="IconReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IconLogin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IconValidate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconValidate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
