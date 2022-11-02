@@ -184,10 +184,5 @@ namespace Capa_Presentacion.Comercializacion
         }
 
         #endregion
-
-        private void Frm_RealizarVenta_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

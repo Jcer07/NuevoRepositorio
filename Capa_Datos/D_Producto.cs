@@ -191,7 +191,6 @@ namespace Capa_Datos
         public E_Producto BuscarProducto(int codProducto)
         {
             E_Producto obj = null;
-
             try
             {
                 using(SqlConnection con = new SqlConnection(cadena))

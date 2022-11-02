@@ -12,7 +12,6 @@ namespace Capa_Negocio
         public bool ValidaUsuario(String nombreUsuario, String clave)
         {
             bool existe;
-
             try
             {
                 D_IniciarSesion login = new D_IniciarSesion();

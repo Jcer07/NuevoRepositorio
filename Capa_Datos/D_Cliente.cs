@@ -176,7 +176,6 @@ namespace Capa_Datos
         public E_Cliente BuscarCliente(String dniCliente)
         {
             E_Cliente obj = null;
-
             try
             {
                 using(SqlConnection con = new SqlConnection(cadena))
@@ -206,7 +205,6 @@ namespace Capa_Datos
             {
                 throw ex;
             }
-
             return obj;
         }
     }

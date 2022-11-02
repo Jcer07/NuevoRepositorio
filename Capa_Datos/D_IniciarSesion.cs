@@ -15,11 +15,6 @@ namespace Capa_Datos
         public bool ValidarUsuario(String nombreUsuario, String clave)
         {
             bool existe = false;
-            String query = $@"select U.CodigoUsuario, U.SiglasUsuario, P.CodigoPersonal, P.Nombres, P.Apellidos, A.CodigoAlmacen
-	                            from Usuario as U
-		                            join Personal as P on U.CodigoPersonal = P.CodigoPersonal
-		                            join Almacen as A on P.CodigoAlmacen = A.CodigoAlmacen
-	                            where U.Vigente = 1 and U.NombreUsuario = @usuario and Clave = @clave";
             try
             {
                 using(SqlConnection con = new SqlConnection(cadena))
