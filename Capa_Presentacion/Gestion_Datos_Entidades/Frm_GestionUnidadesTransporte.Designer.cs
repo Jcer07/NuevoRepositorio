@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Gestion_Datos_Entidades
+﻿namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     partial class Frm_GestionUnidadesTransporte
     {
@@ -120,7 +120,7 @@
             // 
             // button5
             // 
-            this.button5.Image = global::Capa_Presentacion.Properties.Resources.IconDelete;
+            this.button5.Image = global::ComercializacionFerroCenter.Properties.Resources.IconDelete;
             this.button5.Location = new System.Drawing.Point(493, 549);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(140, 40);
@@ -132,7 +132,7 @@
             // 
             // button6
             // 
-            this.button6.Image = global::Capa_Presentacion.Properties.Resources.IconList;
+            this.button6.Image = global::ComercializacionFerroCenter.Properties.Resources.IconList;
             this.button6.Location = new System.Drawing.Point(513, 34);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(120, 40);
@@ -144,7 +144,7 @@
             // 
             // button4
             // 
-            this.button4.Image = global::Capa_Presentacion.Properties.Resources.IconUpdate;
+            this.button4.Image = global::ComercializacionFerroCenter.Properties.Resources.IconUpdate;
             this.button4.Location = new System.Drawing.Point(170, 549);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 40);
@@ -156,7 +156,7 @@
             // 
             // button3
             // 
-            this.button3.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
+            this.button3.Image = global::ComercializacionFerroCenter.Properties.Resources.IconNew;
             this.button3.Location = new System.Drawing.Point(23, 549);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(120, 40);
@@ -179,6 +179,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Enabled = false;
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(514, 289);
@@ -197,7 +198,7 @@
             // 
             // button2
             // 
-            this.button2.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.button2.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.button2.Location = new System.Drawing.Point(359, 224);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 40);
@@ -209,7 +210,7 @@
             // 
             // button7
             // 
-            this.button7.Image = global::Capa_Presentacion.Properties.Resources.IconSearch;
+            this.button7.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSearch;
             this.button7.Location = new System.Drawing.Point(359, 41);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(120, 30);
@@ -221,7 +222,7 @@
             // 
             // button1
             // 
-            this.button1.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.button1.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.button1.Location = new System.Drawing.Point(212, 224);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 40);
@@ -302,6 +303,7 @@
             this.Name = "Frm_GestionUnidadesTransporte";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestión de Unidades de Transporte";
+            this.Load += new System.EventHandler(this.Frm_GestionUnidadesTransporte_Load);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);

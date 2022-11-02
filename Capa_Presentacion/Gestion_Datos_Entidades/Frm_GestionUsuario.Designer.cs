@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Gestion_Datos_Entidades
+﻿namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     partial class Frm_GestionUsuario
     {
@@ -76,6 +76,7 @@
             this.GbPersonal.Controls.Add(this.TxtNombrePersonal);
             this.GbPersonal.Controls.Add(this.LblDni);
             this.GbPersonal.Controls.Add(this.LblNombres);
+            this.GbPersonal.Enabled = false;
             this.GbPersonal.Location = new System.Drawing.Point(13, 13);
             this.GbPersonal.Name = "GbPersonal";
             this.GbPersonal.Size = new System.Drawing.Size(425, 192);
@@ -85,7 +86,7 @@
             // 
             // BtnBuscarPersonal
             // 
-            this.BtnBuscarPersonal.Image = global::Capa_Presentacion.Properties.Resources.IconSearch2;
+            this.BtnBuscarPersonal.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSearch;
             this.BtnBuscarPersonal.Location = new System.Drawing.Point(264, 66);
             this.BtnBuscarPersonal.Name = "BtnBuscarPersonal";
             this.BtnBuscarPersonal.Size = new System.Drawing.Size(120, 30);
@@ -148,6 +149,7 @@
             this.GbUsuario.Controls.Add(this.TxtSiglasTipoUsuario);
             this.GbUsuario.Controls.Add(this.TxtTipoUsuario);
             this.GbUsuario.Controls.Add(this.TxtNombreUsuario);
+            this.GbUsuario.Enabled = false;
             this.GbUsuario.Location = new System.Drawing.Point(13, 211);
             this.GbUsuario.Name = "GbUsuario";
             this.GbUsuario.Size = new System.Drawing.Size(425, 433);
@@ -158,7 +160,7 @@
             // BtnCancelar
             // 
             this.BtnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnCancelar.Location = new System.Drawing.Point(235, 377);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(150, 40);
@@ -172,7 +174,7 @@
             // BtnAceptar
             // 
             this.BtnAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnAceptar.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnAceptar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnAceptar.Location = new System.Drawing.Point(79, 377);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(150, 40);
@@ -292,7 +294,7 @@
             // BtnDarBaja
             // 
             this.BtnDarBaja.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnDarBaja.Image = global::Capa_Presentacion.Properties.Resources.IconDelete;
+            this.BtnDarBaja.Image = global::ComercializacionFerroCenter.Properties.Resources.IconDelete;
             this.BtnDarBaja.Location = new System.Drawing.Point(582, 571);
             this.BtnDarBaja.Name = "BtnDarBaja";
             this.BtnDarBaja.Size = new System.Drawing.Size(150, 40);
@@ -306,7 +308,7 @@
             // BtnModificar
             // 
             this.BtnModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnModificar.Image = global::Capa_Presentacion.Properties.Resources.IconUpdate;
+            this.BtnModificar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconUpdate;
             this.BtnModificar.Location = new System.Drawing.Point(183, 571);
             this.BtnModificar.Name = "BtnModificar";
             this.BtnModificar.Size = new System.Drawing.Size(150, 40);
@@ -320,7 +322,7 @@
             // BtnNuevo
             // 
             this.BtnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnNuevo.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
+            this.BtnNuevo.Image = global::ComercializacionFerroCenter.Properties.Resources.IconNew;
             this.BtnNuevo.Location = new System.Drawing.Point(27, 571);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(150, 40);
@@ -389,7 +391,7 @@
             // BtnListar
             // 
             this.BtnListar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnListar.Image = global::Capa_Presentacion.Properties.Resources.IconList;
+            this.BtnListar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconList;
             this.BtnListar.Location = new System.Drawing.Point(611, 60);
             this.BtnListar.Name = "BtnListar";
             this.BtnListar.Size = new System.Drawing.Size(121, 40);

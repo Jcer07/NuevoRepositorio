@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion
+﻿namespace ComercializacionFerroCenter
 {
     partial class Frm_GestionPersonal
     {
@@ -59,6 +59,11 @@
             this.LblDni = new System.Windows.Forms.Label();
             this.GbListado = new System.Windows.Forms.GroupBox();
             this.DgvListado = new System.Windows.Forms.DataGridView();
+            this.ClTipoPersonal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ClDni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ClNombres = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ClTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ClCorreo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BtnDarBaja = new System.Windows.Forms.Button();
             this.BtnModificar = new System.Windows.Forms.Button();
             this.BtnNuevo = new System.Windows.Forms.Button();
@@ -66,11 +71,6 @@
             this.BtnBuscar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.ErrNotificator = new System.Windows.Forms.ErrorProvider(this.components);
-            this.ClTipoPersonal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ClDni = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ClNombres = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ClTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ClCorreo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GbPersonal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NudEdad)).BeginInit();
             this.GbListado.SuspendLayout();
@@ -169,6 +169,7 @@
             this.GbPersonal.Controls.Add(this.CboProvincia);
             this.GbPersonal.Controls.Add(this.LblDni);
             this.GbPersonal.Controls.Add(this.CboDepartamento);
+            this.GbPersonal.Enabled = false;
             this.GbPersonal.Location = new System.Drawing.Point(12, 12);
             this.GbPersonal.Name = "GbPersonal";
             this.GbPersonal.Size = new System.Drawing.Size(492, 634);
@@ -178,7 +179,7 @@
             // 
             // BtnCancelar
             // 
-            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnCancelar.Location = new System.Drawing.Point(318, 567);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(150, 40);
@@ -191,7 +192,7 @@
             // 
             // BtnAceptar
             // 
-            this.BtnAceptar.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnAceptar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnAceptar.Location = new System.Drawing.Point(145, 567);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(150, 40);
@@ -411,84 +412,6 @@
             this.DgvListado.Size = new System.Drawing.Size(797, 430);
             this.DgvListado.TabIndex = 7;
             // 
-            // BtnDarBaja
-            // 
-            this.BtnDarBaja.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnDarBaja.Image = global::Capa_Presentacion.Properties.Resources.IconDelete;
-            this.BtnDarBaja.Location = new System.Drawing.Point(671, 567);
-            this.BtnDarBaja.Name = "BtnDarBaja";
-            this.BtnDarBaja.Size = new System.Drawing.Size(150, 40);
-            this.BtnDarBaja.TabIndex = 6;
-            this.BtnDarBaja.Text = "Dar de baja";
-            this.BtnDarBaja.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnDarBaja.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BtnDarBaja.UseVisualStyleBackColor = true;
-            this.BtnDarBaja.Click += new System.EventHandler(this.BtnDarBaja_Click);
-            // 
-            // BtnModificar
-            // 
-            this.BtnModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnModificar.Image = global::Capa_Presentacion.Properties.Resources.IconUpdate;
-            this.BtnModificar.Location = new System.Drawing.Point(193, 567);
-            this.BtnModificar.Name = "BtnModificar";
-            this.BtnModificar.Size = new System.Drawing.Size(150, 40);
-            this.BtnModificar.TabIndex = 5;
-            this.BtnModificar.Text = "Modificar";
-            this.BtnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnModificar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BtnModificar.UseVisualStyleBackColor = true;
-            this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
-            // 
-            // BtnNuevo
-            // 
-            this.BtnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnNuevo.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
-            this.BtnNuevo.Location = new System.Drawing.Point(24, 567);
-            this.BtnNuevo.Name = "BtnNuevo";
-            this.BtnNuevo.Size = new System.Drawing.Size(150, 40);
-            this.BtnNuevo.TabIndex = 4;
-            this.BtnNuevo.Text = "Nuevo";
-            this.BtnNuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnNuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BtnNuevo.UseVisualStyleBackColor = true;
-            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
-            // 
-            // TxtNombreBuscar
-            // 
-            this.TxtNombreBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtNombreBuscar.Location = new System.Drawing.Point(113, 38);
-            this.TxtNombreBuscar.Name = "TxtNombreBuscar";
-            this.TxtNombreBuscar.Size = new System.Drawing.Size(535, 26);
-            this.TxtNombreBuscar.TabIndex = 2;
-            // 
-            // BtnBuscar
-            // 
-            this.BtnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnBuscar.Image = global::Capa_Presentacion.Properties.Resources.IconList;
-            this.BtnBuscar.Location = new System.Drawing.Point(671, 25);
-            this.BtnBuscar.Name = "BtnBuscar";
-            this.BtnBuscar.Size = new System.Drawing.Size(150, 40);
-            this.BtnBuscar.TabIndex = 3;
-            this.BtnBuscar.Text = "Listar";
-            this.BtnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.BtnBuscar.UseVisualStyleBackColor = true;
-            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 41);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nombre";
-            // 
-            // ErrNotificator
-            // 
-            this.ErrNotificator.ContainerControl = this;
-            // 
             // ClTipoPersonal
             // 
             this.ClTipoPersonal.DataPropertyName = "TiPersonal";
@@ -528,6 +451,84 @@
             this.ClCorreo.MinimumWidth = 6;
             this.ClCorreo.Name = "ClCorreo";
             this.ClCorreo.ReadOnly = true;
+            // 
+            // BtnDarBaja
+            // 
+            this.BtnDarBaja.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnDarBaja.Image = global::ComercializacionFerroCenter.Properties.Resources.IconDelete;
+            this.BtnDarBaja.Location = new System.Drawing.Point(671, 567);
+            this.BtnDarBaja.Name = "BtnDarBaja";
+            this.BtnDarBaja.Size = new System.Drawing.Size(150, 40);
+            this.BtnDarBaja.TabIndex = 6;
+            this.BtnDarBaja.Text = "Dar de baja";
+            this.BtnDarBaja.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnDarBaja.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnDarBaja.UseVisualStyleBackColor = true;
+            this.BtnDarBaja.Click += new System.EventHandler(this.BtnDarBaja_Click);
+            // 
+            // BtnModificar
+            // 
+            this.BtnModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnModificar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconUpdate;
+            this.BtnModificar.Location = new System.Drawing.Point(193, 567);
+            this.BtnModificar.Name = "BtnModificar";
+            this.BtnModificar.Size = new System.Drawing.Size(150, 40);
+            this.BtnModificar.TabIndex = 5;
+            this.BtnModificar.Text = "Modificar";
+            this.BtnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnModificar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnModificar.UseVisualStyleBackColor = true;
+            this.BtnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
+            // 
+            // BtnNuevo
+            // 
+            this.BtnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnNuevo.Image = global::ComercializacionFerroCenter.Properties.Resources.IconNew;
+            this.BtnNuevo.Location = new System.Drawing.Point(24, 567);
+            this.BtnNuevo.Name = "BtnNuevo";
+            this.BtnNuevo.Size = new System.Drawing.Size(150, 40);
+            this.BtnNuevo.TabIndex = 4;
+            this.BtnNuevo.Text = "Nuevo";
+            this.BtnNuevo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnNuevo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnNuevo.UseVisualStyleBackColor = true;
+            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
+            // 
+            // TxtNombreBuscar
+            // 
+            this.TxtNombreBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TxtNombreBuscar.Location = new System.Drawing.Point(113, 38);
+            this.TxtNombreBuscar.Name = "TxtNombreBuscar";
+            this.TxtNombreBuscar.Size = new System.Drawing.Size(535, 26);
+            this.TxtNombreBuscar.TabIndex = 2;
+            // 
+            // BtnBuscar
+            // 
+            this.BtnBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtnBuscar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconList;
+            this.BtnBuscar.Location = new System.Drawing.Point(671, 25);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(150, 40);
+            this.BtnBuscar.TabIndex = 3;
+            this.BtnBuscar.Text = "Listar";
+            this.BtnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnBuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnBuscar.UseVisualStyleBackColor = true;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(39, 41);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 20);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Nombre";
+            // 
+            // ErrNotificator
+            // 
+            this.ErrNotificator.ContainerControl = this;
             // 
             // Frm_GestionPersonal
             // 

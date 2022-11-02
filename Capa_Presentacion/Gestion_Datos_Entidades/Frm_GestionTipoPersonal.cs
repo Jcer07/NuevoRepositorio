@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using Capa_Entidades;
 using Capa_Negocio;
 
-namespace Capa_Presentacion.Gestion_Datos_Entidades
+namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     public partial class Frm_GestionTipoPersonal : Form
     {
@@ -193,5 +193,10 @@ namespace Capa_Presentacion.Gestion_Datos_Entidades
             }
         }
         #endregion
+
+        private void Frm_GestionTipoPersonal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

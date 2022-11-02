@@ -11,7 +11,7 @@ using Capa_Negocio;
 using Capa_Entidades;
 using System.Text.RegularExpressions;
 
-namespace Capa_Presentacion.Gestion_Datos_Entidades
+namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     public partial class Frm_GestionProveedor : Form
     {

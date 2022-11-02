@@ -1,4 +1,4 @@
-﻿using Capa_Presentacion.Formularios_Busqueda;
+﻿using ComercializacionFerroCenter.Formularios_Busqueda;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion.Comercializacion
+namespace ComercializacionFerroCenter.Comercializacion
 {
     public partial class Frm_RegistrarSalidaMercaderia : Form
     {

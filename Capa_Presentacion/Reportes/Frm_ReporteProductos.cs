@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion.Reportes
+namespace ComercializacionFerroCenter.Reportes
 {
     public partial class Frm_ReporteProductos : Form
     {
         public Frm_ReporteProductos()
         {
             InitializeComponent();
+        }
+
+        private void Frm_ReporteProductos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Comercializacion
+﻿namespace ComercializacionFerroCenter.Comercializacion
 {
     partial class Frm_GenerarNotaCredito
     {
@@ -69,7 +69,7 @@
             // 
             // button1
             // 
-            this.button1.Image = global::Capa_Presentacion.Properties.Resources.IconSearch;
+            this.button1.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSearch;
             this.button1.Location = new System.Drawing.Point(204, 106);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(153, 30);
@@ -228,7 +228,7 @@
             // 
             // button2
             // 
-            this.button2.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.button2.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.button2.Location = new System.Drawing.Point(862, 494);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(153, 40);
@@ -237,10 +237,11 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.button3.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.button3.Location = new System.Drawing.Point(1028, 494);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(153, 40);

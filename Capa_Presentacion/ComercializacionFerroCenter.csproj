@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{63F82350-571A-4643-9AAA-396BEBFD424C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Capa_Presentacion</RootNamespace>
-    <AssemblyName>Capa_Presentacion</AssemblyName>
+    <RootNamespace>ComercializacionFerroCenter</RootNamespace>
+    <AssemblyName>ComercializacionFerroCenter</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -23,9 +23,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -46,6 +47,21 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E40DED2FAD45CDDCDFF60721E292E701F3424DA9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Capa_Presentacion_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ComercializacionFerroCenter.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -133,12 +149,6 @@
     </Compile>
     <Compile Include="Formularios_Busqueda\Frm_BuscarProveedor.Designer.cs">
       <DependentUpon>Frm_BuscarProveedor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmPrincipal2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmPrincipal2.designer.cs">
-      <DependentUpon>FrmPrincipal2.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_CambiarClave.cs">
       <SubType>Form</SubType>
@@ -281,9 +291,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios_Busqueda\Frm_BuscarProveedor.resx">
       <DependentUpon>Frm_BuscarProveedor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmPrincipal2.resx">
-      <DependentUpon>FrmPrincipal2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_CambiarClave.resx">
       <DependentUpon>Frm_CambiarClave.cs</DependentUpon>

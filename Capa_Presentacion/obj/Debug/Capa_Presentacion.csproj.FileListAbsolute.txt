@@ -44,3 +44,7 @@ C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Pre
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Reportes.Frm_ReporteProductos.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Formularios_Busqueda.Frm_BuscarUnidadTransporte.resources
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.Comercializacion.Frm_RegistrarPago.resources
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Presentacion.exe.manifest
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\bin\Debug\Capa_Presentacion.application
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.exe.manifest
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Presentacion\obj\Debug\Capa_Presentacion.application

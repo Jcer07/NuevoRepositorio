@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion
+﻿namespace ComercializacionFerroCenter
 {
     partial class Frm_CambiarClave
     {
@@ -67,7 +67,7 @@
             // 
             // BtnValidarDatos
             // 
-            this.BtnValidarDatos.Image = global::Capa_Presentacion.Properties.Resources.IconValidate;
+            this.BtnValidarDatos.Image = global::ComercializacionFerroCenter.Properties.Resources.IconValidate;
             this.BtnValidarDatos.Location = new System.Drawing.Point(170, 125);
             this.BtnValidarDatos.Name = "BtnValidarDatos";
             this.BtnValidarDatos.Size = new System.Drawing.Size(143, 40);
@@ -123,7 +123,7 @@
             // 
             // BtnVerificarCodigo
             // 
-            this.BtnVerificarCodigo.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnVerificarCodigo.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnVerificarCodigo.Location = new System.Drawing.Point(156, 87);
             this.BtnVerificarCodigo.Name = "BtnVerificarCodigo";
             this.BtnVerificarCodigo.Size = new System.Drawing.Size(179, 40);
@@ -165,7 +165,7 @@
             // 
             // BtnCambiarClave
             // 
-            this.BtnCambiarClave.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnCambiarClave.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnCambiarClave.Location = new System.Drawing.Point(145, 119);
             this.BtnCambiarClave.Name = "BtnCambiarClave";
             this.BtnCambiarClave.Size = new System.Drawing.Size(219, 40);
@@ -174,6 +174,7 @@
             this.BtnCambiarClave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnCambiarClave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnCambiarClave.UseVisualStyleBackColor = true;
+            this.BtnCambiarClave.Click += new System.EventHandler(this.BtnCambiarClave_Click);
             // 
             // textBox4
             // 
@@ -209,7 +210,7 @@
             // 
             // button1
             // 
-            this.button1.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.button1.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.button1.Location = new System.Drawing.Point(384, 566);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 40);

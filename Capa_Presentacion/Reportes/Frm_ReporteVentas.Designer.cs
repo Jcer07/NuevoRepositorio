@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Reportes
+﻿namespace ComercializacionFerroCenter.Reportes
 {
     partial class Frm_ReporteVentas
     {
@@ -49,7 +49,7 @@
             // 
             // button5
             // 
-            this.button5.Image = global::Capa_Presentacion.Properties.Resources.IconPdf;
+            this.button5.Image = global::ComercializacionFerroCenter.Properties.Resources.IconPdf;
             this.button5.Location = new System.Drawing.Point(158, 568);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(140, 40);
@@ -61,7 +61,7 @@
             // 
             // button4
             // 
-            this.button4.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.button4.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.button4.Location = new System.Drawing.Point(542, 568);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(140, 40);
@@ -73,7 +73,7 @@
             // 
             // button3
             // 
-            this.button3.Image = global::Capa_Presentacion.Properties.Resources.IconExcel;
+            this.button3.Image = global::ComercializacionFerroCenter.Properties.Resources.IconExcel;
             this.button3.Location = new System.Drawing.Point(12, 568);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(140, 40);
@@ -204,6 +204,7 @@
             this.Name = "Frm_ReporteVentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reporte de Ventas";
+            this.Load += new System.EventHandler(this.Frm_ReporteVentas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

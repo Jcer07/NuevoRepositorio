@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Gestion_Datos_Entidades
+﻿namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     partial class Frm_GestionProducto
     {
@@ -88,6 +88,7 @@
             this.GbProducto.Controls.Add(this.label5);
             this.GbProducto.Controls.Add(this.label4);
             this.GbProducto.Controls.Add(this.label2);
+            this.GbProducto.Enabled = false;
             this.GbProducto.Location = new System.Drawing.Point(12, 12);
             this.GbProducto.Name = "GbProducto";
             this.GbProducto.Size = new System.Drawing.Size(449, 633);
@@ -125,7 +126,7 @@
             // BtnCancelar
             // 
             this.BtnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel1;
+            this.BtnCancelar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnCancelar.Location = new System.Drawing.Point(253, 569);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(150, 40);
@@ -139,7 +140,7 @@
             // BtnAceptar
             // 
             this.BtnAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnAceptar.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnAceptar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnAceptar.Location = new System.Drawing.Point(83, 569);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(150, 40);
@@ -278,7 +279,7 @@
             // BtnDarBaja
             // 
             this.BtnDarBaja.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnDarBaja.Image = global::Capa_Presentacion.Properties.Resources.IconDelete;
+            this.BtnDarBaja.Image = global::ComercializacionFerroCenter.Properties.Resources.IconDelete;
             this.BtnDarBaja.Location = new System.Drawing.Point(623, 569);
             this.BtnDarBaja.Name = "BtnDarBaja";
             this.BtnDarBaja.Size = new System.Drawing.Size(150, 40);
@@ -292,7 +293,7 @@
             // BtnModificar
             // 
             this.BtnModificar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnModificar.Image = global::Capa_Presentacion.Properties.Resources.IconUpdate;
+            this.BtnModificar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconUpdate;
             this.BtnModificar.Location = new System.Drawing.Point(187, 569);
             this.BtnModificar.Name = "BtnModificar";
             this.BtnModificar.Size = new System.Drawing.Size(150, 40);
@@ -306,7 +307,7 @@
             // BtnNuevo
             // 
             this.BtnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnNuevo.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
+            this.BtnNuevo.Image = global::ComercializacionFerroCenter.Properties.Resources.IconNew;
             this.BtnNuevo.Location = new System.Drawing.Point(19, 569);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(150, 40);
@@ -375,7 +376,7 @@
             // BtnListarProducto
             // 
             this.BtnListarProducto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnListarProducto.Image = global::Capa_Presentacion.Properties.Resources.IconList;
+            this.BtnListarProducto.Image = global::ComercializacionFerroCenter.Properties.Resources.IconList;
             this.BtnListarProducto.Location = new System.Drawing.Point(632, 22);
             this.BtnListarProducto.Name = "BtnListarProducto";
             this.BtnListarProducto.Size = new System.Drawing.Size(114, 40);

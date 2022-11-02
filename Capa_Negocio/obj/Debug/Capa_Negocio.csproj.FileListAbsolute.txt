@@ -1,5 +1,3 @@
-C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\bin\Debug\Capa_Negocio.dll
-C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\bin\Debug\Capa_Datos.dll
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\bin\Debug\Capa_Entidades.dll
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\bin\Debug\Capa_Datos.pdb
@@ -7,5 +5,7 @@ C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\bin\Debug\Capa_Entidade
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.AssemblyReference.cache
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\obj\Debug\Capa_Negocio.dll
 C:\Users\Jcer\Source\Repos\NuevoRepositorio\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

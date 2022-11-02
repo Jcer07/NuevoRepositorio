@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Forms;
 using Capa_Entidades;
-using Capa_Presentacion.Formularios_Busqueda;
+using ComercializacionFerroCenter.Formularios_Busqueda;
 
-namespace Capa_Presentacion.Comercializacion
+namespace ComercializacionFerroCenter.Comercializacion
 {
     public partial class Frm_RegistraCotizacion : Form
     {
@@ -113,20 +113,28 @@ namespace Capa_Presentacion.Comercializacion
 
         private void BtnSeleccionar_Click(object sender, EventArgs e)
         {
-            this.DgvListadoDetalle.DataSource = null;
-            try
+            if (this.DgvListado.DataSource != null)
             {
-                N_OrdenCompra nOrdenCompra = new N_OrdenCompra();
-                List<E_Producto> listado = nOrdenCompra.ListadoDetalleCompra((this.DgvListado.CurrentRow.DataBoundItem as E_OrdenCompra).CodigoOrdenCompra);
-                if (listado.Count > 0)
+                this.DgvListadoDetalle.DataSource = null;
+                try
                 {
-                    this.DgvListadoDetalle.AutoGenerateColumns = false;
-                    this.DgvListadoDetalle.DataSource = listado;
+                    N_OrdenCompra nOrdenCompra = new N_OrdenCompra();
+                    List<E_Producto> listado = nOrdenCompra.ListadoDetalleCompra((this.DgvListado.CurrentRow.DataBoundItem as E_OrdenCompra).CodigoOrdenCompra);
+                    if (listado.Count > 0)
+                    {
+                        this.DgvListadoDetalle.AutoGenerateColumns = false;
+                        this.DgvListadoDetalle.DataSource = listado;
+                        this.GbListadoCompras.Enabled = false;
+                    }
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("No se pudo cargar el listado de datos", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            catch (Exception)
+            else
             {
-                MessageBox.Show("No se pudo cargar el listado de datos", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("No ha seleccionado ninguna orden de compra", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -148,6 +156,7 @@ namespace Capa_Presentacion.Comercializacion
                     MessageBox.Show("Cotización registrada", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.LimpiarControles();
                     this.CargarListadoCompras();
+                    this.GbListadoCompras.Enabled = true;
                 }
                 catch (Exception)
                 {

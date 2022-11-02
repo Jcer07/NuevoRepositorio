@@ -1,7 +1,8 @@
 ﻿using Capa_Entidades;
-using Capa_Presentacion.Comercializacion;
-using Capa_Presentacion.Gestion_Datos_Entidades;
-using Capa_Presentacion.Reportes;
+using ComercializacionFerroCenter.Comercializacion;
+using ComercializacionFerroCenter.Gestion_Datos_Entidades;
+using ComercializacionFerroCenter.Gestion_Datos_Entidades;
+using ComercializacionFerroCenter.Reportes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +13,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion
+namespace ComercializacionFerroCenter
 {
     public partial class Frm_Principal : Form
     {
@@ -204,7 +205,9 @@ namespace Capa_Presentacion
 
         private void Frm_Principal_Load(object sender, EventArgs e)
         {
-            //this.RolesUsuario();
+            this.LblUsuario.Text = this.LblUsuario.Text + DatosLogin.NombrePersonal + " " + DatosLogin.ApellidoPersonal;
+            this.LblSucursal.Text = DatosLogin.DescripcionAlmacen;
+            this.RolesUsuario();
         }
 
         private void RolesUsuario()

@@ -7,7 +7,7 @@ using Capa_Negocio;
 using Capa_Entidades;
 using System.Text.RegularExpressions;
 
-namespace Capa_Presentacion
+namespace ComercializacionFerroCenter
 {
     public partial class Frm_GestionPersonal : Form
     {

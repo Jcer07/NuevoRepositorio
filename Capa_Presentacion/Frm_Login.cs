@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Capa_Entidades;
+using Capa_Negocio;
 
-namespace Capa_Presentacion
+namespace ComercializacionFerroCenter
 {
     public partial class Frm_Login : Form
     {
@@ -30,10 +31,10 @@ namespace Capa_Presentacion
                 try
                 {
                     N_IniciarSesion login = new N_IniciarSesion();
-                    bool existe = login.ValidaUsuario(this.TxtUsuario.Text, this.TxtClave.Text);
+                    bool existe = login.ValidaUsuario(this.TxtUsuario.Text, Encriptador.SHA256(this.TxtClave.Text));
                     if (existe)
                     {
-                        MessageBox.Show("Bievenido: " + DatosLogin.NombrePersonal, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Bievenido: " + DatosLogin.NombrePersonal, this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         Frm_Principal principal = new Frm_Principal();
                         principal.Show();

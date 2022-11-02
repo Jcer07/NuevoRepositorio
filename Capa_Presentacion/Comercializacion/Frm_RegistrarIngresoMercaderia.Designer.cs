@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Comercializacion
+﻿namespace ComercializacionFerroCenter.Comercializacion
 {
     partial class Frm_RegistrarIngresoMercaderia
     {
@@ -71,7 +71,7 @@
             // 
             // BtnBusquedaAvanzada
             // 
-            this.BtnBusquedaAvanzada.Image = global::Capa_Presentacion.Properties.Resources.IconSearch;
+            this.BtnBusquedaAvanzada.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSearch;
             this.BtnBusquedaAvanzada.Location = new System.Drawing.Point(185, 82);
             this.BtnBusquedaAvanzada.Name = "BtnBusquedaAvanzada";
             this.BtnBusquedaAvanzada.Size = new System.Drawing.Size(315, 30);
@@ -85,7 +85,7 @@
             // BtnLimpiar
             // 
             this.BtnLimpiar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnLimpiar.Image = global::Capa_Presentacion.Properties.Resources.IconCleanUp;
+            this.BtnLimpiar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCleanUp;
             this.BtnLimpiar.Location = new System.Drawing.Point(390, 226);
             this.BtnLimpiar.Name = "BtnLimpiar";
             this.BtnLimpiar.Size = new System.Drawing.Size(110, 40);
@@ -98,7 +98,7 @@
             // 
             // BtnBuscar
             // 
-            this.BtnBuscar.Image = global::Capa_Presentacion.Properties.Resources.IconSearch;
+            this.BtnBuscar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSearch;
             this.BtnBuscar.Location = new System.Drawing.Point(400, 41);
             this.BtnBuscar.Name = "BtnBuscar";
             this.BtnBuscar.Size = new System.Drawing.Size(100, 30);
@@ -220,7 +220,7 @@
             // BtnRegistrarIngreso
             // 
             this.BtnRegistrarIngreso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnRegistrarIngreso.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnRegistrarIngreso.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnRegistrarIngreso.Location = new System.Drawing.Point(880, 618);
             this.BtnRegistrarIngreso.Name = "BtnRegistrarIngreso";
             this.BtnRegistrarIngreso.Size = new System.Drawing.Size(139, 40);
@@ -234,7 +234,7 @@
             // BtnSalir
             // 
             this.BtnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnSalir.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnSalir.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnSalir.Location = new System.Drawing.Point(1025, 618);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(130, 40);
@@ -260,6 +260,7 @@
             this.Name = "Frm_RegistrarIngresoMercaderia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Ingreso de Mercaderia";
+            this.Load += new System.EventHandler(this.Frm_RegistrarIngresoMercaderia_Load);
             this.GbBusquedaOrdenCompra.ResumeLayout(false);
             this.GbBusquedaOrdenCompra.PerformLayout();
             this.GbDetalle.ResumeLayout(false);

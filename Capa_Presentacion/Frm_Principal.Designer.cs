@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion
+﻿namespace ComercializacionFerroCenter
 {
     partial class Frm_Principal
     {
@@ -55,6 +55,8 @@
             this.MnuReporteCompras = new System.Windows.Forms.ToolStripMenuItem();
             this.MnuReporteProductos = new System.Windows.Forms.ToolStripMenuItem();
             this.PnlHoraFecha = new System.Windows.Forms.Panel();
+            this.LblSucursal = new System.Windows.Forms.Label();
+            this.LblUsuario = new System.Windows.Forms.Label();
             this.LblFecha = new System.Windows.Forms.Label();
             this.HoraFecha = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
@@ -82,7 +84,7 @@
             this.MnuRegistrarVenta,
             this.MnuRegistrarDevolucion,
             this.MnuRegistrarSalidaMercaderia});
-            this.MnuVentas.Image = global::Capa_Presentacion.Properties.Resources.IconSell;
+            this.MnuVentas.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSell;
             this.MnuVentas.Name = "MnuVentas";
             this.MnuVentas.Size = new System.Drawing.Size(86, 24);
             this.MnuVentas.Text = "Ventas";
@@ -115,7 +117,7 @@
             this.MnuRegistrarOrdenCompra,
             this.MnuRegistrarCotizacion,
             this.MnuRegistrarNotaCredito});
-            this.MnuLogistica.Image = global::Capa_Presentacion.Properties.Resources.IconLogistcs;
+            this.MnuLogistica.Image = global::ComercializacionFerroCenter.Properties.Resources.IconLogistcs;
             this.MnuLogistica.Name = "MnuLogistica";
             this.MnuLogistica.Size = new System.Drawing.Size(102, 24);
             this.MnuLogistica.Text = "Logística";
@@ -160,7 +162,7 @@
             this.MnuGestionarTipoPersonal,
             this.MnuGestionarMarcaProducto,
             this.MnuGestionarUnidadTransporte});
-            this.MnuGestion.Image = global::Capa_Presentacion.Properties.Resources.IconAdministrator;
+            this.MnuGestion.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAdministrator;
             this.MnuGestion.Name = "MnuGestion";
             this.MnuGestion.Size = new System.Drawing.Size(93, 24);
             this.MnuGestion.Text = "Gestión";
@@ -234,7 +236,7 @@
             this.MnuReporteVentas,
             this.MnuReporteCompras,
             this.MnuReporteProductos});
-            this.MnuReportes.Image = global::Capa_Presentacion.Properties.Resources.IconReport;
+            this.MnuReportes.Image = global::ComercializacionFerroCenter.Properties.Resources.IconReport;
             this.MnuReportes.Name = "MnuReportes";
             this.MnuReportes.Size = new System.Drawing.Size(102, 24);
             this.MnuReportes.Text = "Reportes";
@@ -263,6 +265,8 @@
             // PnlHoraFecha
             // 
             this.PnlHoraFecha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.PnlHoraFecha.Controls.Add(this.LblSucursal);
+            this.PnlHoraFecha.Controls.Add(this.LblUsuario);
             this.PnlHoraFecha.Controls.Add(this.LblFecha);
             this.PnlHoraFecha.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PnlHoraFecha.Location = new System.Drawing.Point(0, 598);
@@ -270,14 +274,42 @@
             this.PnlHoraFecha.Size = new System.Drawing.Size(1277, 35);
             this.PnlHoraFecha.TabIndex = 4;
             // 
+            // LblSucursal
+            // 
+            this.LblSucursal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LblSucursal.AutoSize = true;
+            this.LblSucursal.BackColor = System.Drawing.Color.Transparent;
+            this.LblSucursal.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblSucursal.ForeColor = System.Drawing.Color.White;
+            this.LblSucursal.Location = new System.Drawing.Point(550, 1);
+            this.LblSucursal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblSucursal.Name = "LblSucursal";
+            this.LblSucursal.Size = new System.Drawing.Size(46, 34);
+            this.LblSucursal.TabIndex = 1;
+            this.LblSucursal.Text = "Su";
+            // 
+            // LblUsuario
+            // 
+            this.LblUsuario.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.LblUsuario.AutoSize = true;
+            this.LblUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.LblUsuario.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblUsuario.ForeColor = System.Drawing.Color.White;
+            this.LblUsuario.Location = new System.Drawing.Point(4, 0);
+            this.LblUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblUsuario.Name = "LblUsuario";
+            this.LblUsuario.Size = new System.Drawing.Size(119, 34);
+            this.LblUsuario.TabIndex = 1;
+            this.LblUsuario.Text = "Usuario:";
+            // 
             // LblFecha
             // 
-            this.LblFecha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LblFecha.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.LblFecha.AutoSize = true;
             this.LblFecha.BackColor = System.Drawing.Color.Transparent;
             this.LblFecha.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblFecha.ForeColor = System.Drawing.Color.White;
-            this.LblFecha.Location = new System.Drawing.Point(522, 2);
+            this.LblFecha.Location = new System.Drawing.Point(1036, 1);
             this.LblFecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblFecha.Name = "LblFecha";
             this.LblFecha.Size = new System.Drawing.Size(101, 34);
@@ -345,5 +377,7 @@
         private System.Windows.Forms.Timer HoraFecha;
         private System.Windows.Forms.ToolStripMenuItem MnuRegistrarNotaCredito;
         private System.Windows.Forms.ToolStripMenuItem MnuGestionarUnidadTransporte;
+        private System.Windows.Forms.Label LblSucursal;
+        private System.Windows.Forms.Label LblUsuario;
     }
 }

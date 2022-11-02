@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion.Gestion_Datos_Entidades
+namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     public partial class Frm_GestionMarcaProducto : Form
     {

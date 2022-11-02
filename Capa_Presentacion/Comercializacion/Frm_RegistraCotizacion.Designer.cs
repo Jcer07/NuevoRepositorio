@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Comercializacion
+﻿namespace ComercializacionFerroCenter.Comercializacion
 {
     partial class Frm_RegistraCotizacion
     {
@@ -83,7 +83,7 @@
             // BtnSeleccionar
             // 
             this.BtnSeleccionar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnSeleccionar.Image = global::Capa_Presentacion.Properties.Resources.IconSelect;
+            this.BtnSeleccionar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSelect;
             this.BtnSeleccionar.Location = new System.Drawing.Point(446, 584);
             this.BtnSeleccionar.Name = "BtnSeleccionar";
             this.BtnSeleccionar.Size = new System.Drawing.Size(140, 40);
@@ -97,7 +97,7 @@
             // BtnListar
             // 
             this.BtnListar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnListar.Image = global::Capa_Presentacion.Properties.Resources.IconList;
+            this.BtnListar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconList;
             this.BtnListar.Location = new System.Drawing.Point(456, 25);
             this.BtnListar.Name = "BtnListar";
             this.BtnListar.Size = new System.Drawing.Size(130, 40);
@@ -232,7 +232,7 @@
             // 
             // BtnBusquedaAvanzada
             // 
-            this.BtnBusquedaAvanzada.Image = global::Capa_Presentacion.Properties.Resources.IconSearch;
+            this.BtnBusquedaAvanzada.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSearch;
             this.BtnBusquedaAvanzada.Location = new System.Drawing.Point(205, 82);
             this.BtnBusquedaAvanzada.Name = "BtnBusquedaAvanzada";
             this.BtnBusquedaAvanzada.Size = new System.Drawing.Size(306, 30);
@@ -245,7 +245,7 @@
             // 
             // BtnBuscarProveedor
             // 
-            this.BtnBuscarProveedor.Image = global::Capa_Presentacion.Properties.Resources.IconSearch;
+            this.BtnBuscarProveedor.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSearch;
             this.BtnBuscarProveedor.Location = new System.Drawing.Point(401, 46);
             this.BtnBuscarProveedor.Name = "BtnBuscarProveedor";
             this.BtnBuscarProveedor.Size = new System.Drawing.Size(110, 30);
@@ -332,7 +332,7 @@
             // BtnAceptar
             // 
             this.BtnAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnAceptar.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnAceptar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnAceptar.Location = new System.Drawing.Point(891, 618);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(130, 40);
@@ -346,7 +346,7 @@
             // BtnCancelar
             // 
             this.BtnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnCancelar.Location = new System.Drawing.Point(1029, 618);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(130, 40);

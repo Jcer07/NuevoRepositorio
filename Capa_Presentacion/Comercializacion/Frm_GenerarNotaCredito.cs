@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion.Comercializacion
+namespace ComercializacionFerroCenter.Comercializacion
 {
     public partial class Frm_GenerarNotaCredito : Form
     {
         public Frm_GenerarNotaCredito()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatosLogin.cs" />
+    <Compile Include="Encriptador.cs" />
     <Compile Include="E_Almacen.cs" />
     <Compile Include="E_CategoriaProducto.cs" />
     <Compile Include="E_Cliente.cs" />
@@ -51,6 +52,7 @@
     <Compile Include="E_DetalleOrdenCompra.cs" />
     <Compile Include="E_Distrito.cs" />
     <Compile Include="E_MarcaProducto.cs" />
+    <Compile Include="E_MetodoPago.cs" />
     <Compile Include="E_OrdenCompra.cs" />
     <Compile Include="E_Personal.cs" />
     <Compile Include="E_Producto.cs" />
@@ -59,6 +61,7 @@
     <Compile Include="E_TipoPersonal.cs" />
     <Compile Include="E_UnidadMedida.cs" />
     <Compile Include="E_Usuario.cs" />
+    <Compile Include="E_Venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

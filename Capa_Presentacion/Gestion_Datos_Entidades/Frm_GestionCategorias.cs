@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Capa_Entidades;
 using Capa_Negocio;
 
-namespace Capa_Presentacion.Gestion_Datos_Entidades
+namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     public partial class Frm_GestionCategorias : Form
     {
@@ -198,6 +198,11 @@ namespace Capa_Presentacion.Gestion_Datos_Entidades
                 this.ErrNotificator.SetError(this.TxtNombre, "El campo no debe estar vacío");
                 e.Cancel = true;
             }
+        }
+
+        private void Frm_GestionCategorias_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

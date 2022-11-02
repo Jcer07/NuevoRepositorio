@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Reportes
+﻿namespace ComercializacionFerroCenter.Reportes
 {
     partial class Frm_ReporteCompras
     {
@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ReporteCompras));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.ClFecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ClNumeroCompra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ClProveedor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ClMonto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -65,52 +65,6 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(670, 364);
             this.dataGridView1.TabIndex = 5;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.dateTimePicker2);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(670, 151);
-            this.groupBox1.TabIndex = 4;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Busqueda";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 92);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Fecha Fin";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Fecha Inicio";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(125, 36);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(360, 26);
-            this.dateTimePicker1.TabIndex = 4;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(125, 89);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(360, 26);
-            this.dateTimePicker2.TabIndex = 4;
             // 
             // ClFecha
             // 
@@ -140,29 +94,33 @@
             this.ClMonto.Name = "ClMonto";
             this.ClMonto.ReadOnly = true;
             // 
-            // button4
+            // groupBox1
             // 
-            this.button4.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
-            this.button4.Location = new System.Drawing.Point(542, 568);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(140, 40);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Cerrar";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = true;
+            this.groupBox1.Controls.Add(this.dateTimePicker2);
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(670, 151);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Busqueda";
             // 
-            // button3
+            // dateTimePicker2
             // 
-            this.button3.Image = global::Capa_Presentacion.Properties.Resources.IconExcel;
-            this.button3.Location = new System.Drawing.Point(12, 568);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(140, 40);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Exportar";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
+            this.dateTimePicker2.Location = new System.Drawing.Point(125, 89);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(360, 26);
+            this.dateTimePicker2.TabIndex = 4;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(125, 36);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(360, 26);
+            this.dateTimePicker1.TabIndex = 4;
             // 
             // button2
             // 
@@ -176,9 +134,51 @@
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 92);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(83, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Fecha Fin";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Fecha Inicio";
+            // 
+            // button4
+            // 
+            this.button4.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
+            this.button4.Location = new System.Drawing.Point(542, 568);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(140, 40);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "Cerrar";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Image = global::ComercializacionFerroCenter.Properties.Resources.IconExcel;
+            this.button3.Location = new System.Drawing.Point(12, 568);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(140, 40);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "Exportar";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // button5
             // 
-            this.button5.Image = global::Capa_Presentacion.Properties.Resources.IconPdf;
+            this.button5.Image = global::ComercializacionFerroCenter.Properties.Resources.IconPdf;
             this.button5.Location = new System.Drawing.Point(158, 568);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(140, 40);
@@ -204,6 +204,7 @@
             this.Name = "Frm_ReporteCompras";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reporte de Compras";
+            this.Load += new System.EventHandler(this.Frm_ReporteCompras_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

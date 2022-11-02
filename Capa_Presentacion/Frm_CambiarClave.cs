@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion
+namespace ComercializacionFerroCenter
 {
     public partial class Frm_CambiarClave : Form
     {
@@ -20,6 +20,11 @@ namespace Capa_Presentacion
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BtnCambiarClave_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

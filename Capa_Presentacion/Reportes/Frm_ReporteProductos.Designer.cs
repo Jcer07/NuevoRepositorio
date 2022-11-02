@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Reportes
+﻿namespace ComercializacionFerroCenter.Reportes
 {
     partial class Frm_ReporteProductos
     {
@@ -30,10 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ReporteProductos));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ClCodigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ClNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,8 +43,6 @@
             this.ClPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -62,14 +62,36 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Busqueda";
             // 
-            // label1
+            // button2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(81, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Categoría";
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(439, 91);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(215, 40);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Listar por Nombre";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(439, 31);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(215, 40);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Listar por Categoría";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(107, 98);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(313, 26);
+            this.textBox1.TabIndex = 2;
             // 
             // comboBox1
             // 
@@ -79,13 +101,6 @@
             this.comboBox1.Size = new System.Drawing.Size(313, 28);
             this.comboBox1.TabIndex = 1;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(107, 98);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(313, 26);
-            this.textBox1.TabIndex = 2;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -94,6 +109,15 @@
             this.label2.Size = new System.Drawing.Size(76, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "Producto";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Categoría";
             // 
             // dataGridView1
             // 
@@ -144,7 +168,7 @@
             // 
             // button4
             // 
-            this.button4.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.button4.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.button4.Location = new System.Drawing.Point(542, 549);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(140, 40);
@@ -156,7 +180,7 @@
             // 
             // button3
             // 
-            this.button3.Image = global::Capa_Presentacion.Properties.Resources.IconExcel;
+            this.button3.Image = global::ComercializacionFerroCenter.Properties.Resources.IconExcel;
             this.button3.Location = new System.Drawing.Point(12, 549);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(140, 40);
@@ -165,30 +189,6 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(439, 91);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(215, 40);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Listar por Nombre";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(439, 31);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(215, 40);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Listar por Categoría";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Frm_ReporteProductos
             // 
@@ -205,6 +205,7 @@
             this.Name = "Frm_ReporteProductos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reporte de Productos";
+            this.Load += new System.EventHandler(this.Frm_ReporteProductos_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

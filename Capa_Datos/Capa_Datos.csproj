@@ -50,6 +50,7 @@
     <Compile Include="D_IngresoProducto.cs" />
     <Compile Include="D_IniciarSesion.cs" />
     <Compile Include="D_MarcaProducto.cs" />
+    <Compile Include="D_MetodoPago.cs" />
     <Compile Include="D_OrdenCompra.cs" />
     <Compile Include="D_Personal.cs" />
     <Compile Include="D_Producto.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="D_TipoPersonal.cs" />
     <Compile Include="D_UnidadMedida.cs" />
     <Compile Include="D_Usuario.cs" />
+    <Compile Include="D_Venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

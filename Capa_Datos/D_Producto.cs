@@ -200,7 +200,8 @@ namespace Capa_Datos
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@codProducto", codProducto);
-                        using(SqlDataReader dr = cmd.ExecuteReader())
+                        cmd.Parameters.AddWithValue("@codAlmacen", DatosLogin.CodigoAlmacen);
+                        using (SqlDataReader dr = cmd.ExecuteReader())
                         {
                             if (dr.Read())
                             {
@@ -213,7 +214,8 @@ namespace Capa_Datos
                                         CodigoCategoria = dr.GetInt32(dr.GetOrdinal("CodigoCategoria")),
                                         Nombre = dr.GetString(dr.GetOrdinal("Nombre"))
                                     },
-                                    Precio = (double)dr.GetDecimal(dr.GetOrdinal("Precio"))
+                                    Precio = (double)dr.GetDecimal(dr.GetOrdinal("Precio")),
+                                    StockActual = dr.GetInt32(dr.GetOrdinal("StockActual"))
                                 };
                             }
                         }
@@ -239,6 +241,7 @@ namespace Capa_Datos
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         cmd.Parameters.AddWithValue("@nombreProducto", nombre);
+                        cmd.Parameters.AddWithValue("@codigoAlmacen", DatosLogin.CodigoAlmacen);
                         using (SqlDataReader dr = cmd.ExecuteReader())
                         {
                             listado = new List<E_Producto>();
@@ -253,7 +256,8 @@ namespace Capa_Datos
                                         CodigoCategoria = dr.GetInt32(dr.GetOrdinal("CodigoCategoria")),
                                         Nombre = dr.GetString(dr.GetOrdinal("Nombre"))
                                     },
-                                    Precio = (double)dr.GetDecimal(dr.GetOrdinal("Precio"))
+                                    Precio = (double)dr.GetDecimal(dr.GetOrdinal("Precio")),
+                                    StockActual = dr.GetInt32(dr.GetOrdinal("StockActual"))
                                 });
                             }
                         }

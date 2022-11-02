@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Comercializacion
+﻿namespace ComercializacionFerroCenter.Comercializacion
 {
     partial class Frm_RegistrarDevolucionProducto
     {
@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_RegistrarDevolucionProducto));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ClCodigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ClProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -58,7 +59,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -83,6 +83,18 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Búsqueda";
+            // 
+            // button5
+            // 
+            this.button5.Image = global::ComercializacionFerroCenter.Properties.Resources.IconNew;
+            this.button5.Location = new System.Drawing.Point(15, 587);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(120, 40);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Agregar";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -141,7 +153,7 @@
             // 
             // button1
             // 
-            this.button1.Image = global::Capa_Presentacion.Properties.Resources.IconSearch;
+            this.button1.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSearch;
             this.button1.Location = new System.Drawing.Point(492, 58);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(153, 30);
@@ -269,7 +281,7 @@
             // 
             // button2
             // 
-            this.button2.Image = global::Capa_Presentacion.Properties.Resources.IconQuitar;
+            this.button2.Image = global::ComercializacionFerroCenter.Properties.Resources.IconQuitar;
             this.button2.Location = new System.Drawing.Point(19, 350);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(153, 40);
@@ -327,7 +339,7 @@
             // 
             // button4
             // 
-            this.button4.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.button4.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.button4.Location = new System.Drawing.Point(1233, 600);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(153, 40);
@@ -339,7 +351,7 @@
             // 
             // button3
             // 
-            this.button3.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.button3.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.button3.Location = new System.Drawing.Point(1074, 600);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(153, 40);
@@ -348,18 +360,6 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
-            this.button5.Location = new System.Drawing.Point(15, 587);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(120, 40);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Agregar";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // Frm_RegistrarDevolucionProducto
             // 
@@ -377,6 +377,7 @@
             this.Name = "Frm_RegistrarDevolucionProducto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar Devolucion de Producto";
+            this.Load += new System.EventHandler(this.Frm_RegistrarDevolucionProducto_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

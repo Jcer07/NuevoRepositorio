@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion.Formularios_Busqueda
+namespace ComercializacionFerroCenter.Formularios_Busqueda
 {
     public partial class Frm_BuscarProducto : Form
     {

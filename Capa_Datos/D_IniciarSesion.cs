@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using Capa_Entidades;
 
@@ -20,9 +21,10 @@ namespace Capa_Datos
                 using(SqlConnection con = new SqlConnection(cadena))
                 {
                     con.Open();
-                    using(SqlCommand cmd = new SqlCommand(query, con))
+                    using(SqlCommand cmd = new SqlCommand("sp_Login", con))
                     {
-                        cmd.Parameters.AddWithValue("@usuario", nombreUsuario);
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@nombreUsuario", nombreUsuario);
                         cmd.Parameters.AddWithValue("@clave", clave);
                         using(SqlDataReader reader = cmd.ExecuteReader())
                         {
@@ -35,8 +37,9 @@ namespace Capa_Datos
                                     DatosLogin.TipoUsuario = reader.GetString(reader.GetOrdinal("SiglasUsuario"));
                                     DatosLogin.CodigoPersonal = reader.GetInt32(reader.GetOrdinal("CodigoPersonal"));
                                     DatosLogin.NombrePersonal = reader.GetString(reader.GetOrdinal("Nombres"));
-                                    DatosLogin.ApellidoUsuario = reader.GetString(reader.GetOrdinal("Apellidos"));
+                                    DatosLogin.ApellidoPersonal = reader.GetString(reader.GetOrdinal("Apellidos"));
                                     DatosLogin.CodigoAlmacen = reader.GetByte(reader.GetOrdinal("CodigoAlmacen"));
+                                    DatosLogin.DescripcionAlmacen = reader.GetString(reader.GetOrdinal("Descripcion"));
                                 }
                             }
                         }

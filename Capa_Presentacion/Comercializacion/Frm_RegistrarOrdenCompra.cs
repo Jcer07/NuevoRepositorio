@@ -1,6 +1,6 @@
 ﻿using Capa_Entidades;
 using Capa_Negocio;
-using Capa_Presentacion.Formularios_Busqueda;
+using ComercializacionFerroCenter.Formularios_Busqueda;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion
+namespace ComercializacionFerroCenter
 {
     public partial class Frm_RegistrarOrdenCompra : Form
     {
@@ -81,6 +81,11 @@ namespace Capa_Presentacion
                 {
                     this.DgvListadoProductos.AutoGenerateColumns = false;
                     this.DgvListadoProductos.DataSource = listado;
+                }
+                else
+                {
+                    MessageBox.Show("La categoría seleccionada no tiene productos sin stock", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    this.CboTipoProducto.Focus();
                 }
             }
             catch (Exception)
@@ -204,27 +209,35 @@ namespace Capa_Presentacion
 
         private void BtnQuitar_Click(object sender, EventArgs e)
         {
-            if(this.DgvDetallePedido.CurrentRow != null)
+            if (this.DgvDetallePedido.DataSource != null)
             {
-                int cod = (this.DgvDetallePedido.CurrentRow.DataBoundItem as E_Producto).CodigoProducto;
-                int pos = -1;
-                foreach(E_Producto p in this.listaProductosCompra)
+                if (this.DgvDetallePedido.CurrentRow != null)
                 {
-                    if(p.CodigoProducto == cod)
+                    int cod = (this.DgvDetallePedido.CurrentRow.DataBoundItem as E_Producto).CodigoProducto;
+                    int pos = -1;
+                    foreach (E_Producto p in this.listaProductosCompra)
                     {
-                        pos = listaProductosCompra.IndexOf(p);
+                        if (p.CodigoProducto == cod)
+                        {
+                            pos = listaProductosCompra.IndexOf(p);
+                        }
                     }
-                }
 
-                listaProductosCompra.RemoveAt(pos);
-                this.DgvDetallePedido.DataSource = null;
-                this.DgvDetallePedido.AutoGenerateColumns = false;
-                this.DgvDetallePedido.DataSource = listaProductosCompra;
+                    listaProductosCompra.RemoveAt(pos);
+                    this.DgvDetallePedido.DataSource = null;
+                    this.DgvDetallePedido.AutoGenerateColumns = false;
+                    this.DgvDetallePedido.DataSource = listaProductosCompra;
+                }
+                else
+                {
+                    MessageBox.Show("Debe elegir una fila de la lista", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    this.DgvDetallePedido.Focus();
+                }
             }
             else
             {
-                MessageBox.Show("Debe elegir una fila de la lista", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                this.DgvDetallePedido.Focus();
+                MessageBox.Show("No hay ningún producto para quitar", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                this.DgvListadoProductos.Focus();
             }
         }
         

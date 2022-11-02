@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion
+﻿namespace ComercializacionFerroCenter
 {
     partial class Frm_Login
     {
@@ -65,7 +65,7 @@
             // 
             // BtnLogin
             // 
-            this.BtnLogin.Image = global::Capa_Presentacion.Properties.Resources.IconLogin;
+            this.BtnLogin.Image = global::ComercializacionFerroCenter.Properties.Resources.IconLogin;
             this.BtnLogin.Location = new System.Drawing.Point(55, 257);
             this.BtnLogin.Name = "BtnLogin";
             this.BtnLogin.Size = new System.Drawing.Size(153, 50);
@@ -107,7 +107,7 @@
             // 
             // BtnCancelar
             // 
-            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnCancelar.Location = new System.Drawing.Point(240, 257);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(120, 50);

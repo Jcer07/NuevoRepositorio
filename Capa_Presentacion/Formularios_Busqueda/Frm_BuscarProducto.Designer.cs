@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Formularios_Busqueda
+﻿namespace ComercializacionFerroCenter.Formularios_Busqueda
 {
     partial class Frm_BuscarProducto
     {
@@ -74,7 +74,7 @@
             // 
             // BtnBuscar
             // 
-            this.BtnBuscar.Image = global::Capa_Presentacion.Properties.Resources.IconSearch2;
+            this.BtnBuscar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSearch;
             this.BtnBuscar.Location = new System.Drawing.Point(502, 34);
             this.BtnBuscar.Name = "BtnBuscar";
             this.BtnBuscar.Size = new System.Drawing.Size(140, 30);
@@ -87,7 +87,7 @@
             // 
             // BtnCancelar
             // 
-            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnCancelar.Location = new System.Drawing.Point(520, 551);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(150, 40);
@@ -100,7 +100,7 @@
             // 
             // BtnSeleccionar
             // 
-            this.BtnSeleccionar.Image = global::Capa_Presentacion.Properties.Resources.IconSelect;
+            this.BtnSeleccionar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconSelect;
             this.BtnSeleccionar.Location = new System.Drawing.Point(359, 551);
             this.BtnSeleccionar.Name = "BtnSeleccionar";
             this.BtnSeleccionar.Size = new System.Drawing.Size(150, 40);

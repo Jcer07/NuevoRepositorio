@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Capa_Presentacion.Gestion_Datos_Entidades;
+using ComercializacionFerroCenter.Gestion_Datos_Entidades;
 
-namespace Capa_Presentacion
+namespace ComercializacionFerroCenter
 {
     internal static class Program
     {

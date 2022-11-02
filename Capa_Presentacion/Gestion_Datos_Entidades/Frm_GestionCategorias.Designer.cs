@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Gestion_Datos_Entidades
+﻿namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     partial class Frm_GestionCategorias
     {
@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_GestionCategorias));
             this.GbListado = new System.Windows.Forms.GroupBox();
             this.DgvListado = new System.Windows.Forms.DataGridView();
+            this.ClNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BtnDarDeBaja = new System.Windows.Forms.Button();
             this.BtnListar = new System.Windows.Forms.Button();
             this.BtnModificar = new System.Windows.Forms.Button();
@@ -43,7 +44,6 @@
             this.TxtNombre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.ClNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ErrNotificator = new System.Windows.Forms.ErrorProvider(this.components);
             this.GbListado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvListado)).BeginInit();
@@ -81,9 +81,17 @@
             this.DgvListado.Size = new System.Drawing.Size(610, 437);
             this.DgvListado.TabIndex = 4;
             // 
+            // ClNombre
+            // 
+            this.ClNombre.DataPropertyName = "Nombre";
+            this.ClNombre.HeaderText = "Nombre";
+            this.ClNombre.MinimumWidth = 6;
+            this.ClNombre.Name = "ClNombre";
+            this.ClNombre.ReadOnly = true;
+            // 
             // BtnDarDeBaja
             // 
-            this.BtnDarDeBaja.Image = global::Capa_Presentacion.Properties.Resources.IconDelete;
+            this.BtnDarDeBaja.Image = global::ComercializacionFerroCenter.Properties.Resources.IconDelete;
             this.BtnDarDeBaja.Location = new System.Drawing.Point(493, 549);
             this.BtnDarDeBaja.Name = "BtnDarDeBaja";
             this.BtnDarDeBaja.Size = new System.Drawing.Size(140, 40);
@@ -96,7 +104,7 @@
             // 
             // BtnListar
             // 
-            this.BtnListar.Image = global::Capa_Presentacion.Properties.Resources.IconList;
+            this.BtnListar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconList;
             this.BtnListar.Location = new System.Drawing.Point(513, 34);
             this.BtnListar.Name = "BtnListar";
             this.BtnListar.Size = new System.Drawing.Size(120, 40);
@@ -109,7 +117,7 @@
             // 
             // BtnModificar
             // 
-            this.BtnModificar.Image = global::Capa_Presentacion.Properties.Resources.IconUpdate;
+            this.BtnModificar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconUpdate;
             this.BtnModificar.Location = new System.Drawing.Point(170, 549);
             this.BtnModificar.Name = "BtnModificar";
             this.BtnModificar.Size = new System.Drawing.Size(120, 40);
@@ -122,7 +130,7 @@
             // 
             // BtnNuevo
             // 
-            this.BtnNuevo.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
+            this.BtnNuevo.Image = global::ComercializacionFerroCenter.Properties.Resources.IconNew;
             this.BtnNuevo.Location = new System.Drawing.Point(23, 549);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(120, 40);
@@ -151,7 +159,7 @@
             // 
             // BtnCancelar
             // 
-            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnCancelar.Location = new System.Drawing.Point(359, 161);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(120, 40);
@@ -164,7 +172,7 @@
             // 
             // BtnAceptar
             // 
-            this.BtnAceptar.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnAceptar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnAceptar.Location = new System.Drawing.Point(212, 161);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(120, 40);
@@ -208,14 +216,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Nombre";
             // 
-            // ClNombre
-            // 
-            this.ClNombre.DataPropertyName = "Nombre";
-            this.ClNombre.HeaderText = "Nombre";
-            this.ClNombre.MinimumWidth = 6;
-            this.ClNombre.Name = "ClNombre";
-            this.ClNombre.ReadOnly = true;
-            // 
             // ErrNotificator
             // 
             this.ErrNotificator.ContainerControl = this;
@@ -234,6 +234,7 @@
             this.Name = "Frm_GestionCategorias";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gestión de Categorías";
+            this.Load += new System.EventHandler(this.Frm_GestionCategorias_Load);
             this.GbListado.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DgvListado)).EndInit();
             this.GbCategoria.ResumeLayout(false);

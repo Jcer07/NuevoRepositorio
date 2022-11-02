@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion.Gestion_Datos_Entidades
+﻿namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     partial class Frm_GestionMarcaProducto
     {
@@ -76,7 +76,7 @@
             // 
             // BtnCancelar
             // 
-            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnCancelar.Location = new System.Drawing.Point(359, 212);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(120, 40);
@@ -89,7 +89,7 @@
             // 
             // BtnAceptar
             // 
-            this.BtnAceptar.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnAceptar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnAceptar.Location = new System.Drawing.Point(212, 212);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(120, 40);
@@ -205,7 +205,7 @@
             // 
             // BtnDarBaja
             // 
-            this.BtnDarBaja.Image = global::Capa_Presentacion.Properties.Resources.IconDelete;
+            this.BtnDarBaja.Image = global::ComercializacionFerroCenter.Properties.Resources.IconDelete;
             this.BtnDarBaja.Location = new System.Drawing.Point(493, 549);
             this.BtnDarBaja.Name = "BtnDarBaja";
             this.BtnDarBaja.Size = new System.Drawing.Size(140, 40);
@@ -218,7 +218,7 @@
             // 
             // BtnListar
             // 
-            this.BtnListar.Image = global::Capa_Presentacion.Properties.Resources.IconList;
+            this.BtnListar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconList;
             this.BtnListar.Location = new System.Drawing.Point(513, 34);
             this.BtnListar.Name = "BtnListar";
             this.BtnListar.Size = new System.Drawing.Size(120, 40);
@@ -239,7 +239,7 @@
             // 
             // BtnModificar
             // 
-            this.BtnModificar.Image = global::Capa_Presentacion.Properties.Resources.IconUpdate;
+            this.BtnModificar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconUpdate;
             this.BtnModificar.Location = new System.Drawing.Point(170, 549);
             this.BtnModificar.Name = "BtnModificar";
             this.BtnModificar.Size = new System.Drawing.Size(120, 40);
@@ -261,7 +261,7 @@
             // 
             // BtnNuevo
             // 
-            this.BtnNuevo.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
+            this.BtnNuevo.Image = global::ComercializacionFerroCenter.Properties.Resources.IconNew;
             this.BtnNuevo.Location = new System.Drawing.Point(23, 549);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(120, 40);

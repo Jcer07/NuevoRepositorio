@@ -1,4 +1,4 @@
-﻿namespace Capa_Presentacion
+﻿namespace ComercializacionFerroCenter
 {
     partial class Frm_RegistrarOrdenCompra
     {
@@ -61,7 +61,7 @@
             // 
             // GbListadoProductos
             // 
-            this.GbListadoProductos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.GbListadoProductos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)));
             this.GbListadoProductos.Controls.Add(this.DgvListadoProductos);
             this.GbListadoProductos.Controls.Add(this.BtnAgregar);
@@ -79,8 +79,8 @@
             // 
             this.DgvListadoProductos.AllowUserToAddRows = false;
             this.DgvListadoProductos.AllowUserToDeleteRows = false;
-            this.DgvListadoProductos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.DgvListadoProductos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DgvListadoProductos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvListadoProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -125,7 +125,7 @@
             // BtnAgregar
             // 
             this.BtnAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnAgregar.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
+            this.BtnAgregar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconNew;
             this.BtnAgregar.Location = new System.Drawing.Point(304, 502);
             this.BtnAgregar.Name = "BtnAgregar";
             this.BtnAgregar.Size = new System.Drawing.Size(130, 40);
@@ -138,7 +138,7 @@
             // 
             // BtnListarProductos
             // 
-            this.BtnListarProductos.Image = global::Capa_Presentacion.Properties.Resources.IconList;
+            this.BtnListarProductos.Image = global::ComercializacionFerroCenter.Properties.Resources.IconList;
             this.BtnListarProductos.Location = new System.Drawing.Point(324, 23);
             this.BtnListarProductos.Name = "BtnListarProductos";
             this.BtnListarProductos.Size = new System.Drawing.Size(110, 40);
@@ -169,7 +169,7 @@
             // 
             // GbDetallePedido
             // 
-            this.GbDetallePedido.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.GbDetallePedido.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)));
             this.GbDetallePedido.Controls.Add(this.DgvDetallePedido);
             this.GbDetallePedido.Controls.Add(this.BtnQuitar);
@@ -186,8 +186,8 @@
             // 
             this.DgvDetallePedido.AllowUserToAddRows = false;
             this.DgvDetallePedido.AllowUserToDeleteRows = false;
-            this.DgvDetallePedido.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.DgvDetallePedido.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DgvDetallePedido.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvDetallePedido.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -221,7 +221,7 @@
             // BtnQuitar
             // 
             this.BtnQuitar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnQuitar.Image = global::Capa_Presentacion.Properties.Resources.IconQuitar;
+            this.BtnQuitar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconQuitar;
             this.BtnQuitar.Location = new System.Drawing.Point(15, 502);
             this.BtnQuitar.Name = "BtnQuitar";
             this.BtnQuitar.Size = new System.Drawing.Size(120, 40);
@@ -235,7 +235,7 @@
             // BtnAceptar
             // 
             this.BtnAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnAceptar.Image = global::Capa_Presentacion.Properties.Resources.IconAccept;
+            this.BtnAceptar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconAccept;
             this.BtnAceptar.Location = new System.Drawing.Point(170, 502);
             this.BtnAceptar.Name = "BtnAceptar";
             this.BtnAceptar.Size = new System.Drawing.Size(120, 40);
@@ -249,7 +249,7 @@
             // BtnCancelar
             // 
             this.BtnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnCancelar.Image = global::Capa_Presentacion.Properties.Resources.IconCancel;
+            this.BtnCancelar.Image = global::ComercializacionFerroCenter.Properties.Resources.IconCancel;
             this.BtnCancelar.Location = new System.Drawing.Point(296, 502);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(120, 40);
@@ -262,7 +262,7 @@
             // 
             // GbListadoOrdenesCompra
             // 
-            this.GbListadoOrdenesCompra.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.GbListadoOrdenesCompra.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)));
             this.GbListadoOrdenesCompra.Controls.Add(this.DgvListadoOrdenesCompra);
             this.GbListadoOrdenesCompra.Controls.Add(this.BtnNuevo);
@@ -278,8 +278,8 @@
             // 
             this.DgvListadoOrdenesCompra.AllowUserToAddRows = false;
             this.DgvListadoOrdenesCompra.AllowUserToDeleteRows = false;
-            this.DgvListadoOrdenesCompra.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.DgvListadoOrdenesCompra.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DgvListadoOrdenesCompra.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DgvListadoOrdenesCompra.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -316,7 +316,7 @@
             // BtnNuevo
             // 
             this.BtnNuevo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnNuevo.Image = global::Capa_Presentacion.Properties.Resources.IconNew;
+            this.BtnNuevo.Image = global::ComercializacionFerroCenter.Properties.Resources.IconNew;
             this.BtnNuevo.Location = new System.Drawing.Point(20, 502);
             this.BtnNuevo.Name = "BtnNuevo";
             this.BtnNuevo.Size = new System.Drawing.Size(140, 40);
@@ -329,7 +329,7 @@
             // 
             // BtnListarOrdenesCompra
             // 
-            this.BtnListarOrdenesCompra.Image = global::Capa_Presentacion.Properties.Resources.IconList;
+            this.BtnListarOrdenesCompra.Image = global::ComercializacionFerroCenter.Properties.Resources.IconList;
             this.BtnListarOrdenesCompra.Location = new System.Drawing.Point(242, 22);
             this.BtnListarOrdenesCompra.Name = "BtnListarOrdenesCompra";
             this.BtnListarOrdenesCompra.Size = new System.Drawing.Size(110, 40);

@@ -1,6 +1,6 @@
 ﻿using Capa_Entidades;
 using Capa_Negocio;
-using Capa_Presentacion.Formularios_Busqueda;
+using ComercializacionFerroCenter.Formularios_Busqueda;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion.Comercializacion
+namespace ComercializacionFerroCenter.Comercializacion
 {
     public partial class Frm_RegistrarIngresoMercaderia : Form
     {
@@ -125,6 +125,11 @@ namespace Capa_Presentacion.Comercializacion
         private void BtnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Frm_RegistrarIngresoMercaderia_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

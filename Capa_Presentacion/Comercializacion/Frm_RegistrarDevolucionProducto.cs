@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Capa_Presentacion.Comercializacion
+namespace ComercializacionFerroCenter.Comercializacion
 {
     public partial class Frm_RegistrarDevolucionProducto : Form
     {
         public Frm_RegistrarDevolucionProducto()
         {
             InitializeComponent();
+        }
+
+        private void Frm_RegistrarDevolucionProducto_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Capa_Entidades;
 using Capa_Negocio;
 
-namespace Capa_Presentacion.Gestion_Datos_Entidades
+namespace ComercializacionFerroCenter.Gestion_Datos_Entidades
 {
     public partial class Frm_GestionUsuario : Form
     {
@@ -174,7 +174,7 @@ namespace Capa_Presentacion.Gestion_Datos_Entidades
             E_Usuario user = new E_Usuario()
             {
                 NombreUsuario = this.TxtNombreUsuario.Text,
-                Clave = this.TxtClave.Text,
+                Clave = Encriptador.SHA256(this.TxtClave.Text),
                 TipoUsuario = this.TxtTipoUsuario.Text,
                 SiglasUsuario = this.TxtSiglasTipoUsuario.Text,
                 Vigente = true,
